@@ -1,0 +1,32 @@
+/* Global Styling */
+
+html, body {
+    font-family: 'Francois One', sans-serif;
+}
+
+/* Navbar Style */
+
+.navbar-brand {
+    font-size: 50px !important;
+}
+
+.navbar {
+    background-color: #20639b;
+    border-bottom: 1px solid #173f5f;
+    box-shadow: 0 0 4px 4px #696969;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 30px;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.active {
+    font-weight: bold;
+}
