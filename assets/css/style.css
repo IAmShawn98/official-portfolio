@@ -208,9 +208,8 @@ button {
         font-size: 20px !important;
     }
     img {
-        width: 50% !important;
+        width: 40% !important;
     }
-
 }
 
 @media (min-width:480px) {
