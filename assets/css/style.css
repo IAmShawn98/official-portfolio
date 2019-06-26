@@ -7,7 +7,7 @@ html, body {
 /* Navbar Style */
 
 .navbar-brand {
-    font-size: 50px !important;
+    font-size: 60px !important;
 }
 
 .navbar {
@@ -34,7 +34,7 @@ html, body {
 }
 
 .jumbotron {
-    position:fixed;
+    position: fixed;
     width: 100%;
     height: 100%;
     background-color: #ed553b;
@@ -43,13 +43,13 @@ html, body {
 }
 
 .profile {
-    filter:brightness(90%);
+    filter: brightness(90%);
     border-radius: 50%;
     width: 20%;
 }
 
 .speech-bubble {
-	position: relative;
+    position: relative;
     background: #00aabb;
     border-radius: 0 0 85% 85%;
     padding: 0;
@@ -57,15 +57,63 @@ html, body {
 }
 
 .speech-bubble:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-top-color: #00aabb;
-	border-bottom: 0;
-	margin-left: -20px;
-	margin-bottom: -20px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #00aabb;
+    border-bottom: 0;
+    margin-left: -20px;
+    margin-bottom: -20px;
 }
+
+/* Github Button */
+.btnGithub {
+    border-radius: 50%;
+    font-size: 50px;
+    box-shadow: 0 1px 15px 1px #343a40;
+    border: 10px solid #343a40 !important;
+}
+
+.btnGithub:hover {
+    border-radius: 50%;
+    font-size: 50px;
+    box-shadow: 0 1px 5px 1px #343a40;
+    border: 10px solid #343a40 !important;
+}
+
+.btnGithub:active {
+    border-radius: 50%;
+    font-size: 50px;
+    box-shadow: 0 0 0 0 #343a40;
+    border: 8px solid #343a40 !important;
+}
+
+
+/* Linkedin Button */
+.btnLinkedin {
+    border-radius: 50%;
+    font-size: 50px;
+    box-shadow: 0 1px 15px 1px #343a40;
+    border: 10px solid #007bff !important;
+}
+
+.btnLinkedin:hover {
+    border-radius: 50%;
+    font-size: 50px;
+    box-shadow: 0 1px 5px 1px #343a40;
+    border: 10px solid #007bff !important;
+}
+
+.btnLinkedin:active {
+    border-radius: 50%;
+    font-size: 50px;
+    box-shadow: 0 0 0 0 #343a40;
+    border: 8px solid #007bff !important;
+}
+
+
+
