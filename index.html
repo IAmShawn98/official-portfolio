@@ -31,7 +31,7 @@
     <title>Shawn Luther | Web Developer</title>
 </head>
 
-<body class="animated fadeIn">
+<body class="animated fadeIn slow">
     <!-- Site Navbar Container -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <!-- Site Navbar Brand -->
@@ -77,7 +77,7 @@
     <div class="jumbotron jumbotron-fluid text-center">
         <!-- Site Jumbotron Speech Bubble -->
         <p class="speech-bubble p-4 mb-5 lead text-white">
-            Welcome everyone, my name is Shawn Luther, and, I'm a Web Developer!
+           Welcome all <b id="users">0</b> of my users, I am Shawn Luther, and, I'm a Web Developer!
         </p>
 
         <!-- Site Jumbotron Image of Me! -->
@@ -86,7 +86,11 @@
         <h1 class="display-2 text-white mt-3"></h1>
     </div>
 
+    <!-- Firebase JS SDK (Standard) -->
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
 
+    <!-- Firebase JS (Database Support Plug) -->
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -100,6 +104,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- App.js -->
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
