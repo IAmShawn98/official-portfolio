@@ -156,7 +156,7 @@ button {
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 
-@media (max-width:320px) {
+@media (min-width:320px) {
     /* Responsive Navbar */
     .navbar-brand {
         font-size: 2em !important;
@@ -212,22 +212,80 @@ button {
     }
 }
 
-@media (min-width:480px) {
+@media (min-width:464px) {
     /* smartphones, Android phones, landscape iPhone */
+    /* Responsive Navbar */
+    .navbar-brand {
+        font-size: 2em !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    span.divider {
+        display: none;
+    }
+    .navbar {
+        width: 100% !important;
+    }
+    .btnSocial {
+        font-size: 2.6em;
+    }
+    ul {
+        text-align: center;
+    }
+    .nav-link {
+        background-color: lightblue;
+        width: 100%;
+        margin-top: 10px;
+        border: 2px solid black;
+        font-size: 2em !important;
+    }
+    #circle-brand {
+        font-size: 2em !important;
+    }
+    /* Show Mobile Bubble */
+    #bubbleDeskView {
+        display: none !important;
+    }
+    /* Hide Desk Bubble */
+    #bubblePhoneView {
+        display: block !important;
+    }
+    /* Responsive Jumbotron */
+    .jumbotron {
+        background-color: #ed553b;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .display-2 {
+        font-size: 3em !important;
+    }
+    .btn-info {
+        font-size: 20px !important;
+    }
+    img {
+        width: 30% !important;
+    }
 }
 
-@media (min-width:x) {
-    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-}
-
-@media (min-width:801px) {
+@media (min-width:524px) {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
+    #bubblePhoneView{
+        font-size: 1.4em !important;
+    }
+    .display-2 {
+        font-size: 2em !important;
+    }
 
-@media (min-width:1025px) {
-    /* big landscape tablets, laptops, and desktops */
-}
 
-@media (min-width:1281px) {
-    /* hi-res laptops and desktops */
+    @media (min-width:569px) {
+        /* big landscape tablets, laptops, and desktops */
+        img {
+            width: 25% !important;
+        }
+    }
+    @media (min-width:1281px) {
+        /* hi-res laptops and desktops */
+    }
 }
