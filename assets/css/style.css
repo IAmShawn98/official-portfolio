@@ -7,7 +7,7 @@ html, body {
 /* Navbar Style */
 
 .navbar-brand {
-    font-size: 60px !important;
+    font-size: 72px !important;
 }
 
 .navbar {
@@ -71,6 +71,7 @@ html, body {
 }
 
 /* Github Button */
+
 .btnGithub {
     border-radius: 50%;
     font-size: 50px;
@@ -92,8 +93,8 @@ html, body {
     border: 8px solid #343a40 !important;
 }
 
-
 /* Linkedin Button */
+
 .btnLinkedin {
     border-radius: 50%;
     font-size: 50px;
@@ -115,5 +116,26 @@ html, body {
     border: 8px solid #007bff !important;
 }
 
+/* Social Circle Floating Animation */
 
+.floating {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+}
 
+/* Up, Down, Up! */
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 6px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
+}

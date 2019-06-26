@@ -17,14 +17,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"
         integrity="sha256-39jKbsb/ty7s7+4WzbtELS4vq9udJ+MDjGTD5mtxHZ0=" crossorigin="anonymous" />
 
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css"
+        integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
+
     <!-- Custom Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Document FaveIcon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/faves/fave.png" />
 
     <!-- Document Title -->
     <title>Shawn Luther | Web Developer</title>
 </head>
 
-<body>
+<body class="animated fadeIn">
     <!-- Site Navbar Container -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <!-- Site Navbar Brand -->
@@ -36,10 +43,19 @@
         </button>
         <!-- Site Navbar Links Container -->
         <div class="collapse navbar-collapse" id="mobileNav">
+            <!-- Site Navbar Social Circles -->
             <div class="ml-md-auto mb-2">
-                <h1 class="text-center text-white mb-3">Social Circles</h1>
-                <button class="btn btn-dark btnGithub mr-4"><i class="fab fa-github"></i></button>
-                <button class="btn btn-primary btnLinkedin mr-4"><i class="fab fa-linkedin"></i></button>
+                <!-- Site Navbar Social Circles Brand -->
+                <h1 class="text-center text-white mb-3">My Social Circles</h1>
+                <!-- Site Navbar Social Circles Floating Effect -->
+                <div class="floating">
+                    <!-- Site Navbar Social Circles (Github) -->
+                    <a target="_blank" href="https://github.com/IAmShawn98" class="btn btn-dark btnGithub mr-4"><i
+                            class="fab fa-github"></i></a>
+                    <!-- Site Navbar Social Circles (Linkedin) -->
+                    <a target="_blank" href="https://www.linkedin.com/in/shawn-luther-a11109148/"
+                        class="btn btn-primary btnLinkedin mr-4"><i class="fab fa-linkedin"></i></a>
+                </div>
             </div>
             <!-- Site Links -->
             <ul class="navbar-nav ml-md-auto">
