@@ -36,5 +36,5 @@ connectedRef.on("value", function (snap) {
 // When the page is loaded or when a connection changes....
 connectionsRef.on("value", function (snap) {
     // Populate the user count to the DOM.
-    $("#users").text(snap.numChildren());
+    $(".users").text(snap.numChildren());
 });

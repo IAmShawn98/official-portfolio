@@ -46,47 +46,53 @@
             <!-- Site Navbar Social Circles -->
             <div class="ml-md-auto mb-2">
                 <!-- Site Navbar Social Circles Brand -->
-                <h1 class="text-center text-white mb-3">My Social Circles</h1>
+                <h1 id="circle-brand" class="text-center text-white mb-3">My Social Circles</h1>
                 <!-- Site Navbar Social Circles Floating Effect -->
                 <div class="floating">
                     <!-- Site Navbar Social Circles (Github) -->
-                    <a target="_blank" href="https://github.com/IAmShawn98" class="btn btn-dark btnGithub mr-4"><i
-                            class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://github.com/IAmShawn98"
+                        class="btn btn-dark btnSocial btnGithub mr-4"><i class="fab fa-github"></i></a>
                     <!-- Site Navbar Social Circles (Linkedin) -->
                     <a target="_blank" href="https://www.linkedin.com/in/shawn-luther-a11109148/"
-                        class="btn btn-primary btnLinkedin mr-4"><i class="fab fa-linkedin"></i></a>
+                        class="btn btn-primary btnSocial btnLinkedin mr-4"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
             <!-- Site Links -->
             <ul class="navbar-nav ml-md-auto">
                 <!-- Site Navbar Current Page (Active) -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span>|</a>
+                    <a class="nav-link" href="#">Home</span><span class="divider">|</span></a>
                 </li>
                 <!-- Site Navbar (Other Links) -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me |</a>
+                    <a class="nav-link" href="#">About Me<span class="divider">|</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">My Work |</a>
+                    <a class="nav-link" href="#">My Work</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- Site Jumbotron Container -->
     <div class="jumbotron jumbotron-fluid text-center">
-        <!-- Site Jumbotron Speech Bubble -->
-        <p class="speech-bubble p-4 mb-5 lead text-white">
-            Welcome all <b id="users" class="text-warning">0</b> of my current guests! I am Shawn Luther, a Web
+        <!-- Site Jumbotron Speech Bubble Desk -->
+        <p id="bubbleDeskView" class="speech-bubble p-4 mb-5 lead text-white">
+            Welcome all <b class="users" class="text-warning">0</b> of my current guests! I am Shawn Luther, a Web
             Developer! <i class="fa fa-wrench" aria-hidden="true"></i>
         </p>
-
+        <!-- Site Jumbotron Speech Bubble Mobile -->
+        <p id="bubblePhoneView" class="p-4 lead text-white">
+            Welcome all <b class="users" class="text-warning">0</b> of my current guests! I am Shawn Luther, a Web
+            Developer! <i class="fa fa-wrench" aria-hidden="true"></i>
+        </p>
         <!-- Site Jumbotron Image of Me! -->
         <img class="img-thumbnail profile" src="assets/images/profiles/myProfileShawn.jpg" alt="myProfileShawn.jpg">
         <!-- Site Jumbotron Image Intro -->
         <h1 class="display-2 text-white mt-3">Dive Deeper</h1>
         <button class="btn btn-info">About Me <i class="fas fa-angle-double-right"></i></button>
     </div>
+
+
 
     <!-- Firebase JS SDK (Standard) -->
     <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>

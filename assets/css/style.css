@@ -2,6 +2,7 @@
 
 html, body {
     font-family: 'Francois One', sans-serif;
+    height: 100vh;
 }
 
 /* Navbar Style */
@@ -12,10 +13,9 @@ html, body {
 
 .navbar {
     /* position: fixed; */
-    width: 100%;
+    /* width: 100%; */
     background-color: #20639b;
     border-bottom: 1px solid #173f5f;
-    /* box-shadow: 0 0 4px 4px #696969; */
 }
 
 .nav-link {
@@ -29,17 +29,20 @@ html, body {
     font-size: 35px;
 }
 
+span.divider {
+    padding-left: 15px;
+}
+
 .active {
     font-weight: bold;
 }
 
 .jumbotron {
-    position: fixed;
+    background-color: #ed553b;
     width: 100%;
     height: 100%;
-    background-color: #ed553b;
     padding: 0;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .profile {
@@ -72,23 +75,22 @@ html, body {
 
 /* Github Button */
 
-.btnGithub {
+.btnSocial {
     border-radius: 50%;
     font-size: 50px;
+}
+
+.btnGithub {
     box-shadow: 0 1px 15px 1px #343a40;
     border: 10px solid #343a40 !important;
 }
 
 .btnGithub:hover {
-    border-radius: 50%;
-    font-size: 50px;
     box-shadow: 0 1px 5px 1px #343a40;
     border: 10px solid #343a40 !important;
 }
 
 .btnGithub:active {
-    border-radius: 50%;
-    font-size: 50px;
     box-shadow: 0 0 0 0 #343a40;
     border: 8px solid #343a40 !important;
 }
@@ -96,22 +98,16 @@ html, body {
 /* Linkedin Button */
 
 .btnLinkedin {
-    border-radius: 50%;
-    font-size: 50px;
     box-shadow: 0 1px 15px 1px #343a40;
     border: 10px solid #007bff !important;
 }
 
 .btnLinkedin:hover {
-    border-radius: 50%;
-    font-size: 50px;
     box-shadow: 0 1px 5px 1px #343a40;
     border: 10px solid #007bff !important;
 }
 
 .btnLinkedin:active {
-    border-radius: 50%;
-    font-size: 50px;
     box-shadow: 0 0 0 0 #343a40;
     border: 8px solid #007bff !important;
 }
@@ -142,7 +138,7 @@ html, body {
 
 /* Connected Users Counter Style */
 
-#users {
+.users {
     background-color: #343a40;
     font-weight: bold;
     padding: 5px;
@@ -150,4 +146,89 @@ html, body {
 
 button {
     font-size: 250% !important;
+}
+
+/* Hide Mobile Bubble */
+
+#bubblePhoneView {
+    display: none;
+}
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+@media (max-width:320px) {
+    /* Responsive Navbar */
+    .navbar-brand {
+        font-size: 2em !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    span.divider {
+        display: none;
+    }
+    .navbar {
+        width: 100% !important;
+    }
+    .btnSocial {
+        font-size: 2.6em;
+    }
+    ul {
+        text-align: center;
+    }
+    .nav-link {
+        background-color: lightblue;
+        width: 100%;
+        margin-top: 10px;
+        border: 2px solid black;
+        font-size: 2em !important;
+    }
+    #circle-brand {
+        font-size: 2em !important;
+    }
+    /* Show Mobile Bubble */
+    #bubbleDeskView {
+        display: none !important;
+    }
+    /* Hide Desk Bubble */
+    #bubblePhoneView {
+        display: block !important;
+    }
+    /* Responsive Jumbotron */
+    .jumbotron {
+        background-color: #ed553b;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .display-2 {
+        font-size: 38px;
+    }
+    .btn-info {
+        font-size: 20px !important;
+    }
+    img {
+        width: 50% !important;
+    }
+
+}
+
+@media (min-width:480px) {
+    /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:x) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
 }
