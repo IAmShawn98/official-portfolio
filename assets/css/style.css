@@ -155,7 +155,7 @@ button {
 }
 
 img {
-    width: 20% !important;
+    width: 40% !important;
     height: auto !important;
 }
 
@@ -378,7 +378,9 @@ img {
     .btn-info {
         font-size: 20px !important;
     }
-
+    img {
+        width: 45% !important;
+    }
 }
 
 @media (max-width:841px) {
@@ -433,7 +435,9 @@ img {
     .btn-info {
         font-size: 20px !important;
     }
-
+    img {
+        width: 20% !important;
+    }
  
 }
 
@@ -487,5 +491,8 @@ img {
     }
     .btn-info {
         font-size: 20px !important;
+    }
+    img {
+        width: 45% !important;
     }
 }
