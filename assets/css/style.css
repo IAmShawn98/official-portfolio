@@ -154,6 +154,11 @@ button {
     display: none;
 }
 
+img {
+    width: 20% !important;
+    height: auto !important;
+}
+
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 
 @media (max-width:320px) {
@@ -316,12 +321,12 @@ button {
         font-size: 20px !important;
     }
     img {
-        width: 30% !important;
+        width: 35% !important;
     }
 
 }
 
-@media (max-width:684px) {
+@media (max-width:560px) {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
     /* Responsive Navbar */
     .navbar-brand {
@@ -373,9 +378,7 @@ button {
     .btn-info {
         font-size: 20px !important;
     }
-    img {
-        width: 35% !important;
-    }
+
 }
 
 @media (max-width:841px) {
@@ -430,9 +433,7 @@ button {
     .btn-info {
         font-size: 20px !important;
     }
-    img {
-        width: 40% !important;
-    }
+
  
 }
 
@@ -486,8 +487,5 @@ button {
     }
     .btn-info {
         font-size: 20px !important;
-    }
-    img {
-        width: 45% !important;
     }
 }
