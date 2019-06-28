@@ -48,6 +48,7 @@ $("#btnFirstDive").click(function () {
     $("#deepDiveBackground").show();
     // Show 'about me' content.
     $(".second").show()
+    $(".aboutMeParagraph").show();
     // Animate a smooth scroll.
     $('html,body').animate({
         scrollTop: $(".second").offset().top

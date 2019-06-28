@@ -226,6 +226,28 @@ img {
     .btn-info {
         font-size: 20px !important;
     }
+    .display-4 {
+        font-size: 2em;
+    }
+    #deepDiveBackground {
+        background-image: url(./../images/profiles/myProfileDive.png);
+        /* background-size: 100%; */
+        background-repeat: no-repeat;
+        width: 100vh !important;
+        height: 68vh !important;
+        padding: 0;
+        margin-bottom: 0;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        filter: #696969;
+        /* IE6-9 */
+        -webkit-filter: grayscale(100%);
+        /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    }
+    .aboutMeParagraph {
+        font-size: 18px !important;
+    }
 }
 
 @media (max-width:460px) {
