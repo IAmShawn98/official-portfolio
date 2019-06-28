@@ -38,3 +38,11 @@ connectionsRef.on("value", function (snap) {
     // Populate the user count to the DOM.
     $(".users").text(snap.numChildren());
 });
+
+
+// Smooth Scroll to further content.
+$("button").click(function () {
+    $('html,body').animate({
+        scrollTop: $(".second").offset().top
+    }, 'slow');
+});
