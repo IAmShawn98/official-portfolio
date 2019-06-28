@@ -40,8 +40,12 @@ connectionsRef.on("value", function (snap) {
 });
 
 
-// Smooth Scroll to further content.
+// Smooth Scroll to 'About Me'.
 $("button").click(function () {
+    setTimeout(100);
+    $("body").attr("css", { backgroundColor: "gray" });
+    $("#deepDiveBackground").show();
+    $(".second").show()
     $('html,body').animate({
         scrollTop: $(".second").offset().top
     }, 'slow');
