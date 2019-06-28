@@ -156,7 +156,6 @@ button {
 
 img {
     max-height: 40% !important;
-    max-width: 30% !important;
 }
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
@@ -323,7 +322,6 @@ img {
     img {
         width: 35% !important;
     }
-
 }
 
 @media (max-width:560px) {
@@ -438,13 +436,12 @@ img {
     img {
         width: 20% !important;
     }
- 
 }
 
-@media (max-width:1281px) {
+@media (max-width:992px) {
     /* Responsive Navbar */
     .navbar-brand {
-        font-size: 3em !important;
+        font-size: 2em !important;
         padding: 0 !important;
         margin: 0 !important;
     }
@@ -456,20 +453,20 @@ img {
     }
     ul {
         text-align: center;
-    }   
+    }
     .nav-link {
-        font-size: 1.8em !important;
+        font-size: 2em !important;
     }
     #circle-brand {
         font-size: 2em !important;
     }
     /* Show Mobile Bubble */
     #bubbleDeskView {
-        display: show !important;
+        display: none !important;
     }
     /* Hide Desk Bubble */
     #bubblePhoneView {
-        display: none !important;
+        display: block !important;
     }
     /* Responsive Jumbotron */
     .jumbotron {
@@ -480,12 +477,12 @@ img {
         margin-bottom: 0;
     }
     .display-2 {
-        font-size: 70px !important;
+        font-size: 38px;
     }
     .btn-info {
         font-size: 20px !important;
     }
     img {
-        width: 20% !important;
+        width: 35% !important;
     }
 }
