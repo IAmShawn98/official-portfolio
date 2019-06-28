@@ -41,12 +41,15 @@ connectionsRef.on("value", function (snap) {
 
 
 // Smooth Scroll to 'About Me'.
-$("button").click(function () {
+$("#btnFirstDive").click(function () {
+    // Make the scroll wait a second so the IDS needed to load are present at the time of the scroll request.
     setTimeout(100);
-    $("body").attr("css", { backgroundColor: "gray" });
+    // Show 'about me' image.
     $("#deepDiveBackground").show();
+    // Show 'about me' content.
     $(".second").show()
+    // Animate a smooth scroll.
     $('html,body').animate({
         scrollTop: $(".second").offset().top
-    }, 'slow');
+    }, 'slow'); // Do it slowly.
 });
