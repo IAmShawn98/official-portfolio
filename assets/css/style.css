@@ -2,7 +2,21 @@
 
 html, body {
     font-family: 'Francois One', sans-serif;
-    height: 100vh;
+}
+
+#deepDiveBackground {
+    background-image: url(file:///C:/Users/IAmShawn98/Documents/Bootcamp-Projects/official-portfolio/assets/images/profiles/myProfileDive.png);
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    width: 100vh !important;
+    height: 100vh !important;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
 /* Navbar Style */
