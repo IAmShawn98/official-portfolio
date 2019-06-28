@@ -5,7 +5,7 @@ html, body {
 }
 
 #deepDiveBackground {
-    background-image: url(file:///C:/Users/IAmShawn98/Documents/Bootcamp-Projects/official-portfolio/assets/images/profiles/myProfileDive.png);
+    background-image: url(./../images/profiles/myProfileDive.png);
     /* background-size: 100%; */
     background-repeat: no-repeat;
     width: 100vh !important;
