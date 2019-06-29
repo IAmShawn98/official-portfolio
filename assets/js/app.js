@@ -23,7 +23,7 @@ var connectedRef = database.ref(".info/connected");
 // When the connection state changes....
 connectedRef.on("value", function (snap) {
 
-    // If they are connected..
+    // If they are connected....
     if (snap.val()) {
 
         // Add user to the connections list.

@@ -303,6 +303,29 @@ img {
     .btn-info {
         font-size: 20px !important;
     }
+    #deepDiveBackground {
+        background-image: url(./../images/profiles/myProfileDive.png);
+        /* background-size: 100%; */
+        background-repeat: no-repeat;
+        width: 100vh !important;
+        height: 66vh !important;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        filter: #696969;
+        /* IE6-9 */
+        -webkit-filter: grayscale(100%);
+        /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    }
+    .aboutMeParagraph {
+        font-size: 15px !important;
+    }
+    #foodNGames {
+        width: 100vh !important;
+        height: 40vh !important;
+    }
+    .display-4 {
+        font-size: 2em;
+    }
 }
 
 @media (max-width:521px) {
