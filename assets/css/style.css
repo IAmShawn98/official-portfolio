@@ -234,12 +234,9 @@ img {
         /* background-size: 100%; */
         background-repeat: no-repeat;
         width: 100vh !important;
-        height: 68vh !important;
-        padding: 0;
-        margin-bottom: 0;
+        height: 80vh !important;
         background-size: auto 100%;
         background-repeat: no-repeat;
-        background-position: left top;
         filter: #696969;
         /* IE6-9 */
         -webkit-filter: grayscale(100%);
@@ -247,6 +244,10 @@ img {
     }
     .aboutMeParagraph {
         font-size: 18px !important;
+    }
+    #foodNGames {
+        width: 100vh !important;
+        height: 40vh !important;
     }
 }
 
