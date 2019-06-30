@@ -179,6 +179,11 @@ img {
     font-size: 200%;
 }
 
+.btn-success {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 
 @media (max-width:320px) {
