@@ -54,6 +54,7 @@ $("#btnFirstDive").click(function () {
         scrollTop: $(".second").offset().top
     }, 'slow'); // Do it slowly.
 
+    // Base Development Technologies (Progress Animation Transition).
     $(".html").animate({
         width: "100%"
     }, 500);
@@ -64,6 +65,7 @@ $("#btnFirstDive").click(function () {
         width: "85%"
     }, 500);
 
+    // Base Tools, Frameworks and Libraries (Progress Animation Transition).
     $(".vsCode").animate({
         width: "90%"
     }, 500);
@@ -87,6 +89,28 @@ $("#linkDiveDeeper").click(function () {
     $('html,body').animate({
         scrollTop: $(".second").offset().top
     }, 'slow'); // Do it slowly.
+
+    // Base Development Technologies (Progress Animation Transition).
+    $(".html").animate({
+        width: "100%"
+    }, 500);
+    $(".css").animate({
+        width: "100%"
+    }, 500);
+    $(".js").animate({
+        width: "85%"
+    }, 500);
+
+    // Base Tools, Frameworks and Libraries (Progress Animation Transition).
+    $(".vsCode").animate({
+        width: "90%"
+    }, 500);
+    $(".bsFramework").animate({
+        width: "85%"
+    }, 500);
+    $(".jQuery").animate({
+        width: "50%"
+    }, 500);
 });
 
 // Back to 'Home' Section.
