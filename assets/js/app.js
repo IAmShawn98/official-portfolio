@@ -68,3 +68,13 @@ $("#linkDiveDeeper").click(function () {
         scrollTop: $(".second").offset().top
     }, 'slow'); // Do it slowly.
 });
+
+// Back to 'Home' Section.
+$(".home").click(function () {
+    // Make the scroll wait a second so the IDS needed to load are present at the time of the scroll request.
+    setTimeout(100);
+    // Animate a smooth scroll.
+    $('html,body').animate({
+        scrollTop: $(".first").offset().top
+    }, 'slow'); // Do it slowly.
+});
