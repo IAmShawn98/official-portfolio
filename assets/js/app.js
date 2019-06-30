@@ -53,6 +53,26 @@ $("#btnFirstDive").click(function () {
     $('html,body').animate({
         scrollTop: $(".second").offset().top
     }, 'slow'); // Do it slowly.
+
+    $(".html").animate({
+        width: "100%"
+    }, 500);
+    $(".css").animate({
+        width: "100%"
+    }, 500);
+    $(".js").animate({
+        width: "85%"
+    }, 500);
+
+    $(".vsCode").animate({
+        width: "90%"
+    }, 500);
+    $(".bsFramework").animate({
+        width: "85%"
+    }, 500);
+    $(".jQuery").animate({
+        width: "50%"
+    }, 500);
 });
 
 // Smooth Scroll to 'About Me'.

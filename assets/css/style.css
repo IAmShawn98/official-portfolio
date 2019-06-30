@@ -184,6 +184,11 @@ img {
     margin: 0 !important;
 }
 
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 
 @media (max-width:320px) {
