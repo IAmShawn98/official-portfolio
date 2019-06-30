@@ -173,6 +173,12 @@ img {
     max-height: 40% !important;
 }
 
+.fa-brain {
+
+    padding: 20px;
+    font-size: 200%;
+}
+
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 
 @media (max-width:320px) {
@@ -324,7 +330,7 @@ img {
         height: 40vh !important;
     }
     .display-4 {
-        font-size: 2em;
+        font-size: 4em;
     }
 }
 
@@ -382,6 +388,33 @@ img {
     }
     img {
         width: 35% !important;
+    }
+    .display-2 {
+        font-size: 38px;
+    }
+    #deepDiveBackground {
+        background-image: url(./../images/profiles/myProfileDive.png);
+        /* background-size: 100%; */
+        background-repeat: no-repeat;
+        width: 100vh !important;
+        height: 66vh !important;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        filter: #696969;
+        margin: 0 !important;
+        /* IE6-9 */
+        -webkit-filter: grayscale(100%);
+        /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    }
+    .aboutMeParagraph {
+        font-size: 15px !important;
+    }
+    #foodNGames {
+        width: 100vh !important;
+        height: 40vh !important;
+    }
+    .display-4 {
+        font-size: 2em;
     }
 }
 
