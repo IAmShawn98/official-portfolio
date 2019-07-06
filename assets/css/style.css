@@ -4,6 +4,10 @@ html, body {
     font-family: 'Francois One', sans-serif;
 }
 
+html {
+    background-color: #17a2b8;
+}
+
 .btnGithub {
     box-shadow: 0 1px 15px 1px #343a40;
     border: 10px solid #343a40 !important;
@@ -27,6 +31,10 @@ html, body {
 
 img {
     width: 24vw !important;
+}
+
+.second {
+    background-color: #ffffff !important;
 }
 
 .fa-brain {
@@ -137,7 +145,7 @@ button {
     width: 100%;
     margin-top: 10px;
     border: 2px solid #000000;
-    font-size: 2em !important;
+    font-size: 2rem !important;
 }
 
 .card-img-top {
@@ -226,6 +234,9 @@ button {
     .aboutMeParagraph {
         font-size: 20px !important;
     }
+    #myProjectsHeading {
+        font-size: 3em !important;
+    }
 }
 
 /* Tablet */
@@ -285,6 +296,11 @@ button {
         height: 40vw;
         padding: 0;
         margin-bottom: 0;
+    }
+    .display-1 {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1.2;
     }
     #circle-brand {
         font-size: 48px !important;
