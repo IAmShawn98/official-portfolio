@@ -2,68 +2,99 @@
 
 html, body {
     font-family: 'Francois One', sans-serif;
-    height: 100vh;
 }
 
-#deepDiveBackground {
-    background-image: url(./../images/profiles/myProfileDive.png);
-    /* background-size: 100%; */
-    background-repeat: no-repeat;
-    width: 100vh !important;
-    height: 100vh !important;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: left top;
-    filter: #696969;
-    /* IE6-9 */
-    -webkit-filter: grayscale(100%);
-    /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+.btnGithub {
+    box-shadow: 0 1px 15px 1px #343a40;
+    border: 10px solid #343a40 !important;
 }
 
-/* Navbar Style */
-
-.navbar-brand {
-    font-size: 72px !important;
+.btnGithub:hover {
+    box-shadow: 0 1px 5px 1px #343a40;
+    border: 10px solid #343a40 !important;
 }
 
-.navbar {
-    width: 100%;
-    background-color: #20639b;
-    border-bottom: 1px solid #173f5f;
-    z-index: 1000;
+.btnGithub:active {
+    box-shadow: 0 0 0 0 #343a40;
+    border: 8px solid #343a40 !important;
 }
 
-.nav-link {
-    color: #ffffff !important;
-    font-size: 35px;
+/* Hide Mobile Bubble */
+
+#bubblePhoneView {
+    display: none !important;
 }
 
-.nav-link:hover {
-    color: #ffffff !important;
+img {
+    width: 24vw !important;
+}
+
+.fa-brain {
+    padding: 20px;
+    font-size: 200%;
+}
+
+.btn-success {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+/* Connected Users Counter Style */
+
+.users {
+    background-color: #343a40;
     font-weight: bold;
-    font-size: 35px;
+    padding: 5px;
 }
 
-span.divider {
-    padding-left: 15px;
+button {
+    font-size: 250% !important;
 }
 
-.active {
-    font-weight: bold;
+/* Social Circle Floating Animation */
+
+.floating {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
 }
 
-.jumbotron {
-    background-color: #ed553b;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin-bottom: 0;
+/* Up, Down, Up! */
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 6px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
 }
 
-.profile {
-    filter: brightness(90%);
-    border-radius: 50%;
-    width: 20%;
+/* Linkedin Button */
+
+.btnLinkedin {
+    box-shadow: 0 1px 15px 1px #343a40;
+    border: 10px solid #007bff !important;
+}
+
+.btnLinkedin:hover {
+    box-shadow: 0 1px 5px 1px #343a40;
+    border: 10px solid #007bff !important;
+}
+
+.btnLinkedin:active {
+    box-shadow: 0 0 0 0 #343a40;
+    border: 8px solid #007bff !important;
 }
 
 .speech-bubble {
@@ -95,108 +126,41 @@ span.divider {
     font-size: 50px;
 }
 
-.btnGithub {
-    box-shadow: 0 1px 15px 1px #343a40;
-    border: 10px solid #343a40 !important;
+.profile {
+    filter: brightness(90%);
+    border-radius: 50%;
+    width: 20%;
 }
 
-.btnGithub:hover {
-    box-shadow: 0 1px 5px 1px #343a40;
-    border: 10px solid #343a40 !important;
+.nav-link {
+    background-color: #99ccff;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #000000;
+    font-size: 2em !important;
 }
 
-.btnGithub:active {
-    box-shadow: 0 0 0 0 #343a40;
-    border: 8px solid #343a40 !important;
+.card-img-top {
+    width: 100% !important;
 }
 
-/* Linkedin Button */
+/* Phone */
 
-.btnLinkedin {
-    box-shadow: 0 1px 15px 1px #343a40;
-    border: 10px solid #007bff !important;
-}
-
-.btnLinkedin:hover {
-    box-shadow: 0 1px 5px 1px #343a40;
-    border: 10px solid #007bff !important;
-}
-
-.btnLinkedin:active {
-    box-shadow: 0 0 0 0 #343a40;
-    border: 8px solid #007bff !important;
-}
-
-/* Social Circle Floating Animation */
-
-.floating {
-    animation-name: floating;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-}
-
-/* Up, Down, Up! */
-
-@keyframes floating {
-    from {
-        transform: translate(0, 0px);
-    }
-    65% {
-        transform: translate(0, 6px);
-    }
-    to {
-        transform: translate(0, -0px);
-    }
-}
-
-/* Connected Users Counter Style */
-
-.users {
-    background-color: #343a40;
-    font-weight: bold;
-    padding: 5px;
-}
-
-button {
-    font-size: 250% !important;
-}
-
-/* Hide Mobile Bubble */
-
-#bubblePhoneView {
-    display: none;
-}
-
-img {
-    max-height: 40% !important;
-}
-
-.fa-brain {
-
-    padding: 20px;
-    font-size: 200%;
-}
-
-.btn-success {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.progress.active .progress-bar {
-    -webkit-transition: none !important;
-    transition: none !important;
-}
-
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-
-@media (max-width:320px) {
+@media (min-width:320px) {
     /* Responsive Navbar */
     .navbar-brand {
         font-size: 2em !important;
-        padding: 0 !important;
+        padding: 0 0 0 0 !important;
         margin: 0 !important;
+    }
+    .navbar {
+        width: 100vw;
+        background-color: #20639b;
+        border-bottom: 1px solid #173f5f;
+        z-index: 1000;
+    }
+    span {
+        display: block;
     }
     span.divider {
         display: none;
@@ -227,20 +191,21 @@ img {
     /* Hide Desk Bubble */
     #bubblePhoneView {
         display: block !important;
+        font-size: 14px;
     }
     /* Responsive Jumbotron */
     .jumbotron {
         background-color: #ed553b;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 88vh;
         padding: 0;
         margin-bottom: 0;
     }
     .display-2 {
-        font-size: 38px;
+        font-size: 28px;
     }
     .btn-info {
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
     .display-4 {
         font-size: 2em;
@@ -249,7 +214,7 @@ img {
         background-image: url(./../images/profiles/myProfileDive.png);
         /* background-size: 100%; */
         background-repeat: no-repeat;
-        width: 100vh !important;
+        width: 100vw !important;
         height: 66vh !important;
         background-size: auto 100%;
         background-repeat: no-repeat;
@@ -259,336 +224,110 @@ img {
         /* Chrome 19+, Safari 6+, Safari 6+ iOS */
     }
     .aboutMeParagraph {
-        font-size: 18px !important;
-    }
-    #foodNGames {
-        width: 100vh !important;
-        height: 40vh !important;
+        font-size: 20px !important;
     }
 }
 
-@media (max-width:460px) {
-    /* smartphones, Android phones, landscape iPhone */
-    /* Responsive Navbar */
-    .navbar-brand {
-        font-size: 2em !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-    span.divider {
-        display: none;
-    }
-    .navbar {
-        width: 100% !important;
-    }
-    .btnSocial {
-        font-size: 2.6em;
-    }
-    ul {
-        text-align: center;
-    }
-    .nav-link {
-        background-color: lightblue;
-        width: 100%;
-        margin-top: 10px;
-        border: 2px solid black;
-        font-size: 2em !important;
-    }
-    #circle-brand {
-        font-size: 2em !important;
-    }
-    /* Show Mobile Bubble */
-    #bubbleDeskView {
-        display: none !important;
-    }
-    /* Hide Desk Bubble */
-    #bubblePhoneView {
-        display: block !important;
-    }
-    /* Responsive Jumbotron */
-    .jumbotron {
-        background-color: #ed553b;
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin-bottom: 0;
-    }
-    .display-2 {
-        font-size: 38px;
-    }
-    .btn-info {
-        font-size: 20px !important;
-    }
+/* Tablet */
+
+@media (min-width:720px) {}
+
+/* Desktop */
+
+@media (min-width:1080px) {
     #deepDiveBackground {
         background-image: url(./../images/profiles/myProfileDive.png);
         /* background-size: 100%; */
         background-repeat: no-repeat;
         width: 100vh !important;
-        height: 66vh !important;
+        height: 100vh !important;
         background-size: auto 100%;
         background-repeat: no-repeat;
+        background-position: left top;
         filter: #696969;
         /* IE6-9 */
         -webkit-filter: grayscale(100%);
         /* Chrome 19+, Safari 6+, Safari 6+ iOS */
     }
-    .aboutMeParagraph {
-        font-size: 15px !important;
-    }
-    #foodNGames {
-        width: 100vh !important;
-        height: 40vh !important;
-    }
-    .display-4 {
-        font-size: 4em;
-    }
-}
-
-@media (max-width:521px) {
-    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-    /* Responsive Navbar */
+    /* Navbar Style */
     .navbar-brand {
-        font-size: 2em !important;
-        padding: 0 !important;
-        margin: 0 !important;
+        font-size: 82px !important;
     }
-    span.divider {
+    .navbar {
+        width: 100vw;
+        background-color: #20639b;
+        border-bottom: 1px solid #173f5f;
+        z-index: 1000;
+    }
+    .nav-link {
+        background: none !important;
+        border: none !important;
+        color: #ffffff !important;
+        font-size: 45px !important;
+    }
+    .nav-link:hover {
+        color: #ffffff !important;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    span {
         display: none;
     }
-    .navbar {
-        width: 100% !important;
-    }
-    .btnSocial {
-        font-size: 2.6em;
-    }
-    ul {
-        text-align: center;
-    }
-    .nav-link {
-        background-color: lightblue;
-        width: 100%;
-        margin-top: 10px;
-        border: 2px solid black;
-        font-size: 2em !important;
-    }
-    #circle-brand {
-        font-size: 2em !important;
-    }
-    /* Show Mobile Bubble */
-    #bubbleDeskView {
-        display: none !important;
-    }
-    /* Hide Desk Bubble */
-    #bubblePhoneView {
-        display: block !important;
-    }
-    /* Responsive Jumbotron */
-    .jumbotron {
-        background-color: #ed553b;
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin-bottom: 0;
-    }
-    .display-2 {
-        font-size: 38px;
-    }
-    .btn-info {
-        font-size: 20px !important;
-    }
-    img {
-        width: 35% !important;
-    }
-    .display-2 {
-        font-size: 38px;
-    }
-    #deepDiveBackground {
-        background-image: url(./../images/profiles/myProfileDive.png);
-        /* background-size: 100%; */
-        background-repeat: no-repeat;
-        width: 100vh !important;
-        height: 66vh !important;
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        filter: #696969;
-        margin: 0 !important;
-        /* IE6-9 */
-        -webkit-filter: grayscale(100%);
-        /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-    }
-    .aboutMeParagraph {
-        font-size: 15px !important;
-    }
-    #foodNGames {
-        width: 100vh !important;
-        height: 40vh !important;
-    }
-    .display-4 {
-        font-size: 2em;
-    }
-}
-
-@media (max-width:560px) {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-    /* Responsive Navbar */
-    .navbar-brand {
-        font-size: 2em !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
     span.divider {
-        display: none;
+        display: block;
     }
-    .navbar {
-        width: 100% !important;
+    .active {
+        font-weight: bold;
     }
-    .btnSocial {
-        font-size: 2.6em;
-    }
-    ul {
-        text-align: center;
-    }
-    .nav-link {
-        background-color: lightblue;
-        width: 100%;
-        margin-top: 10px;
-        border: 2px solid black;
-        font-size: 2em !important;
-    }
-    #circle-brand {
-        font-size: 2em !important;
-    }
-    /* Show Mobile Bubble */
-    #bubbleDeskView {
-        display: none !important;
-    }
-    /* Hide Desk Bubble */
-    #bubblePhoneView {
-        display: block !important;
-    }
-    /* Responsive Jumbotron */
     .jumbotron {
         background-color: #ed553b;
         width: 100%;
-        height: 100%;
+        height: 40vw;
         padding: 0;
         margin-bottom: 0;
     }
+    #circle-brand {
+        font-size: 48px !important;
+    }
+    .btnGithub {
+        box-shadow: 0 1px 15px 1px #343a40;
+        border: 20px solid #343a40 !important;
+    }
+    .btnGithub:hover {
+        box-shadow: 0 1px 5px 1px #343a40;
+        border: 20px solid #343a40 !important;
+    }
+    .btnGithub:active {
+        box-shadow: 0 0 0 0 #343a40;
+        border: 8px solid #343a40 !important;
+    }
+    .btnLinkedin {
+        box-shadow: 0 1px 15px 1px #343a40;
+        border: 20px solid #007bff !important;
+    }
+    .btnLinkedin:hover {
+        box-shadow: 0 1px 5px 1px #343a40;
+        border: 20px solid #007bff !important;
+    }
+    .btnLinkedin:active {
+        box-shadow: 0 0 0 0 #343a40;
+        border: 8px solid #007bff !important;
+    }
     .display-2 {
-        font-size: 38px;
+        font-size: 58px !important;
     }
     .btn-info {
-        font-size: 20px !important;
-    }
-    img {
-        width: 45% !important;
-    }
-}
-
-@media (max-width:841px) {
-    /* big landscape tablets, laptops, and desktops */
-    /* Responsive Navbar */
-    .navbar-brand {
-        font-size: 2em !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-    span.divider {
-        display: none;
-    }
-    .navbar {
-        width: 100% !important;
-    }
-    .btnSocial {
-        font-size: 2.6em;
-    }
-    ul {
-        text-align: center;
-    }
-    .nav-link {
-        background-color: lightblue !important;
-        width: 100%;
-        margin-top: 10px;
-        border: 2px solid black;
-        font-size: 2em !important;
-    }
-    #circle-brand {
-        font-size: 2em !important;
+        font-size: 25px !important;
     }
     /* Show Mobile Bubble */
     #bubbleDeskView {
-        display: none !important;
+        display: block !important;
     }
     /* Hide Desk Bubble */
     #bubblePhoneView {
-        display: block !important;
-    }
-    /* Responsive Jumbotron */
-    .jumbotron {
-        background-color: #ed553b;
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin-bottom: 0;
-    }
-    .display-2 {
-        font-size: 38px;
-    }
-    .btn-info {
-        font-size: 20px !important;
-    }
-    img {
-        width: 20% !important;
-    }
-}
-
-@media (max-width:992px) {
-    /* Responsive Navbar */
-    .navbar-brand {
-        font-size: 2em !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-    .navbar {
-        width: 100% !important;
-    }
-    .btnSocial {
-        font-size: 2.6em;
-    }
-    ul {
-        text-align: center;
-    }
-    .nav-link {
-        width: 100%;
-        margin-top: 10px;
-        font-size: 2em !important;
-    }
-    #circle-brand {
-        font-size: 2em !important;
-    }
-    /* Show Mobile Bubble */
-    #bubbleDeskView {
         display: none !important;
     }
-    /* Hide Desk Bubble */
-    #bubblePhoneView {
-        display: block !important;
-    }
-    /* Responsive Jumbotron */
-    .jumbotron {
-        background-color: #ed553b;
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin-bottom: 0;
-    }
-    .display-2 {
-        font-size: 38px;
-    }
-    .btn-info {
-        font-size: 20px !important;
-    }
     img {
-        width: 45% !important;
+        width: 20vw !important;
     }
 }

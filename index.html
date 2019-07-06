@@ -35,7 +35,7 @@
     <!-- Site Navbar Container -->
     <nav class="navbar navbar-expand-lg navbar-light first">
         <!-- Site Navbar Brand -->
-        <a class="navbar-brand text-white m-4 ml-5" href="JavaScript:Void(0);">Shawn Luther</a>
+        <a class="navbar-brand text-white m-4" href="JavaScript:Void(0);">Shawn Luther</a>
         <!-- Site Navbar Mobile Collapse -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNav"
             aria-controls="mobileNav" aria-expanded="false">
@@ -61,12 +61,18 @@
             <ul class="navbar-nav ml-md-auto">
                 <!-- Site Navbar Current Page (Active) -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="JavaScript:Void(0);">Home</span><span class="divider">|</span></a>
+                    <a class="nav-link" href="JavaScript:Void(0);">
+                        <!-- Site Navbar Desk Home Button -->
+                        <span class="divider">Home |</span>
+                        <span>Home</span>
+                    </a>
                 </li>
                 <!-- Site Navbar (Other Links) -->
                 <li class="nav-item">
-                    <a id="linkDiveDeeper" class="nav-link" href="JavaScript:Void(0);">About Me<span
-                            class="divider">|</span></a>
+                    <a id="linkDiveDeeper" class="nav-link" href="JavaScript:Void(0);">
+                        <span class="divider">About Me |</span>
+                        <span>About</span>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="JavaScript:Void(0);">My Work</a>
@@ -96,7 +102,6 @@
     <!-- Site About Me Section -->
     <div class="container-fluid">
         <div class="row">
-
             <!-- Site About Me Deep Dive Photo -->
             <div style="display: none;" class="second" id="deepDiveBackground"></div>
 
@@ -173,20 +178,23 @@
                                 <hr>
                                 <strong class="text-info">Visual Studio Code</strong>
                                 <div class="progress mb-4">
-                                    <div class="progress-bar vsCode progress-bar-striped progress-bar-animated active" role="progressbar"
-                                        style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="90">90%
+                                    <div class="progress-bar vsCode progress-bar-striped progress-bar-animated active"
+                                        role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+                                        aria-valuemax="90">90%
                                     </div>
                                 </div>
                                 <strong class="text-info">Bootstrap V4.3+</strong>
                                 <div class="progress mb-4">
-                                    <div class="progress-bar bsFramework progress-bar-striped progress-bar-animated active" role="progressbar"
-                                        style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">85%
+                                    <div class="progress-bar bsFramework progress-bar-striped progress-bar-animated active"
+                                        role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+                                        aria-valuemax="100">85%
                                     </div>
                                 </div>
                                 <strong class="text-info">jQuery</strong>
                                 <div class="progress mb-4">
-                                    <div class="progress-bar jQuery progress-bar-striped progress-bar-animated active" role="progressbar"
-                                        style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">50%
+                                    <div class="progress-bar jQuery progress-bar-striped progress-bar-animated active"
+                                        role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+                                        aria-valuemax="100">50%
                                     </div>
                                 </div>
                                 <p class="text-muted text-center">Percent Based On Daily Use In Projects, Not Skill.</p>
@@ -203,25 +211,175 @@
         </div>
     </div>
 
-    <!-- Firebase JS SDK (Standard) -->
-    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
+    <!-- Site My Work Section -->
+    <div style="display: none;" class="jumbotron jumbotron-fluid bg-info third">
+        <div class="container">
+            <div class="row">
+                <div class="col-md mt-5">
+                    <h1 class="display-1 text-white">My Projects!</h1>
+                    <p class="text-light lead p-0 m-0">Below is a short list of the projects I've worked on. If you want
+                        the full list of projects, check out my <a class="text-warning" href="#"><u>Github!</u></a></p>
+                </div>
+            </div>
+            <!-- Site Project Cards -->
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner mr-4">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="card mt-5 m-2" style="width: 20rem;">
+                                <img width="100" height="180" src="assets/images/projects/parkFinder.png"
+                                    class="card-img-top" alt="parkFinder.png">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold text-success">National Parks Finder</h5>
+                                    <p class="card-text text-info">We aim to give you everything you need to know about
+                                        any
+                                        particular Park you
+                                        might be interested in going to see. We provide alerts, updates, and all the
+                                        details
+                                        you'll
+                                        need
+                                        to plan your trip and begin your next big adventure that we're sure you'll
+                                        cherish.
+                                    </p>
+                                </div>
+                                <div class="row ml-2 mb-3">
+                                    <a href="https://iamshawn98.github.io/national-park-finder/" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary mr-2">View Live</a>
+                                    <a href="https://github.com/IAmShawn98/national-park-finder" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">View Source</a>
+                                </div>
+                            </div>
+                            <div class="card mt-5 m-2" style="width: 20rem;">
+                                <img width="100" height="180" src="assets/images/projects/triviaGame.png"
+                                    class="card-img-top" alt="triviaGame.png">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold text-success">
+                                        1990s Nickelodeon Trivia Game
+                                    </h5>
+                                    <p class="card-text text-info">
+                                        Test your knowledge of classic 1990s Nickelodeon cartoons!
+                                    </p>
+                                </div>
+                                <div class="row ml-2 mb-3">
+                                    <a href="https://iamshawn98.github.io/TriviaGame/" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary mr-2">View Live</a>
+                                    <a href="https://github.com/IAmShawn98/TriviaGame" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">View Source</a>
+                                </div>
+                            </div>
+                            <div class="card mt-5 m-2" style="width: 20rem;">
+                                <img width="100" height="180" src="assets/images/projects/wordGuessGame.png"
+                                    class="card-img-top" alt="wordGuessGame.png">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold text-success">
+                                        Hangman, Basically!
+                                    </h5>
+                                    <p class="card-text text-info">
+                                        The game is simple, guess words correctly, secure high win streaks, and stop
+                                        Hangman from meeting his tragic fate. You have a limited number of guesses to
+                                        make, so be sure to choose letters wisely!
+                                    </p>
+                                </div>
+                                <div class="row ml-2 mb-3">
+                                    <a href="https://iamshawn98.github.io/word-guess-game/" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary mr-2">View Live</a>
+                                    <a href="https://github.com/IAmShawn98/word-guess-game" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">View Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="card mt-5 m-2" style="width: 20rem;">
+                                <img width="100" height="180" src="assets/images/projects/mathCalculator.png"
+                                    class="card-img-top" alt="mathCalculator.png">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold text-success">
+                                        Math Calculator
+                                    </h5>
+                                    <p class="card-text text-info">
+                                        This is a basic math calculator that can perform basic math computation (Add,
+                                        Subtract, Multiply, Divide).
+                                    </p>
+                                </div>
+                                <div class="row ml-2 mb-3">
+                                    <a href="https://iamshawn98.github.io/Math-Calculator/" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary mr-2">View Live</a>
+                                    <a href="https://github.com/IAmShawn98/Math-Calculator" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">View Source</a>
+                                </div>
+                            </div>
+                            <div class="card mt-5 m-2" style="width: 20rem;">
+                                <img width="100" height="180" src="assets/images/projects/giphyAPI.png"
+                                    class="card-img-top" alt="parkFinder.png">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold text-success">
+                                        My Innermost Thoughts
+                                    </h5>
+                                    <p class="card-text text-info">
+                                        This API gives you a sneak peak at my innermost thoughts! This application uses
+                                        the Giphy API to display whatever topic the array of buttons on the page
+                                        contains. You can even create your own button topics!
+                                    </p>
+                                </div>
+                                <div class="row ml-2 mb-3">
+                                    <a href="https://iamshawn98.github.io/giphy-api/" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary mr-2">View Live</a>
+                                    <a href="https://github.com/IAmShawn98/giphy-api" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">View Source</a>
+                                </div>
+                            </div>
+                            <div class="card mt-5 m-2" style="width: 20rem;">
+                                <img width="100" height="180" src="assets/images/projects/trainTimes.png"
+                                    class="card-img-top" alt="parkFinder.png">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold text-success">
+                                        Train Scheduler
+                                    </h5>
+                                    <p class="card-text text-info">
+                                        You play the administrator of a Train Scheduling Website. It's your duty to add
+                                        train times to the table so everybody is happy, and nobody is late for the
+                                        train.
+                                    </p>
+                                </div>
+                                <div class="row ml-2 mb-3">
+                                    <a href="https://iamshawn98.github.io/train-scheduler/" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary mr-2">View Live</a>
+                                    <a href="https://github.com/IAmShawn98/train-scheduler" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">View Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <i style="font-size: 200% !important;" class="fas fa-arrow-right"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
 
-    <!-- Firebase JS (Database Support Plug) -->
-    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+        </div>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <!-- Firebase JS SDK (Standard) -->
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
 
-    <!-- App.js -->
-    <script src="assets/js/app.js"></script>
+        <!-- Firebase JS (Database Support Plug) -->
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        <!-- App.js -->
+        <script src="assets/js/app.js"></script>
 </body>
 
 </html>
