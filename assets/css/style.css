@@ -237,6 +237,12 @@ button {
     #myProjectsHeading {
         font-size: 3em !important;
     }
+    #resumeDesktop {
+        display: none !important;
+    }
+    #resumeMobile {
+        display: block !important;
+    }
 }
 
 /* Tablet */
@@ -341,6 +347,12 @@ button {
     }
     /* Hide Desk Bubble */
     #bubblePhoneView {
+        display: none !important;
+    }
+    #resumeDesktop {
+        display: block !important;
+    }
+    #resumeMobile {
         display: none !important;
     }
     img {
