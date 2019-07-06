@@ -88,6 +88,13 @@ button {
     }
 }
 
+.footer {
+    border-top: 8px solid #4aaaa5;
+    box-shadow: 5px 5px 5px 5px;
+    width: 100%;
+    bottom: 0;
+}
+
 /* Linkedin Button */
 
 .btnLinkedin {

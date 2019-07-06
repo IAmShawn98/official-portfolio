@@ -374,7 +374,8 @@
             <!-- Site My Work (My Resume PDF) Mobile -->
             <div style="display: none;" id="resumeMobile" class="container text-center mt-5">
                 <h4 class="text-white">My Resume!</h4>
-                <a href="https://firebasestorage.googleapis.com/v0/b/offical-portfolio.appspot.com/o/MyResume.pdf?alt=media&token=f6baacf8-0446-486a-b078-f92f0bb40b0f" class="text-danger"><i class="fa fa-download" aria-hidden="true"> </i> Download Resume PDF</a>
+                <a href="https://firebasestorage.googleapis.com/v0/b/offical-portfolio.appspot.com/o/MyResume.pdf?alt=media&token=f6baacf8-0446-486a-b078-f92f0bb40b0f"
+                    class="text-danger"><i class="fa fa-download" aria-hidden="true"> </i> Download Resume PDF</a>
                 <iframe
                     src="https://firebasestorage.googleapis.com/v0/b/offical-portfolio.appspot.com/o/MyResume.pdf?alt=media&token=f6baacf8-0446-486a-b078-f92f0bb40b0f"
                     width="100%" height="400">
@@ -382,8 +383,15 @@
                 </iframe>
             </div>
         </div>
+        <!-- Site Footer -->
+        <footer>
+            <nav class="footer bg-dark p-3 mt-2">
+                <div class="container text-center">
+                    <p class="text-white col-md-12 mt-2">© A Thing By Shawn <b id="dynamicYear"> Since 2019</b></p>
+                </div>
+            </nav>
+        </footer>
     </div>
-
     <!-- Firebase JS SDK (Standard) -->
     <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
 
@@ -400,6 +408,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- Moment JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
     <!-- App.js -->
     <script src="assets/js/app.js"></script>

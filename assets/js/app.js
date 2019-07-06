@@ -164,4 +164,9 @@ $(".home").click(function () {
 // Prevent Project Slider From Auto Scrolling.
 $('.carousel').carousel({
     interval: false
-}); 
+});
+
+// Get footer year dynamically with moment.
+var currentYear = moment().format('YYYY');
+// Append current year to footer.
+document.getElementById("dynamicYear").textContent = currentYear;
