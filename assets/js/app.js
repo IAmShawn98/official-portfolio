@@ -47,7 +47,9 @@ $("#btnFirstDive").click(function () {
     // Show 'about me' image.
     $("#deepDiveBackground").show();
     // Show 'about me' content.
-    $(".second").show()
+    $(".second").show();
+    // Show 'My Work' Content.
+    $(".third").show();
     $(".aboutMeParagraph").show();
     // Animate a smooth scroll.
     $('html,body').animate({
@@ -84,7 +86,9 @@ $("#linkDiveDeeper").click(function () {
     // Show 'about me' image.
     $("#deepDiveBackground").show();
     // Show 'about me' content.
-    $(".second").show()
+    $(".second").show();
+    // Show 'My Work' Content.
+    $(".third").show();
     // Animate a smooth scroll.
     $('html,body').animate({
         scrollTop: $(".second").offset().top

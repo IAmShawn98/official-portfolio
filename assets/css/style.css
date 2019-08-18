@@ -89,7 +89,8 @@ button {
 }
 
 .footer {
-    border-top: 8px solid #4aaaa5;
+    background-color: #ec553b !important;
+    border-top: 2px solid #ffe200;
     box-shadow: 5px 5px 5px 5px;
     width: 100%;
     bottom: 0;
@@ -260,7 +261,7 @@ button {
 
 @media (min-width:1080px) {
     #deepDiveBackground {
-        background-image: url(./../images/profiles/myProfileDive.png);
+        background-image: url(./../images/profiles/myProfileDive.jpg);
         /* background-size: 100%; */
         background-repeat: no-repeat;
         width: 100vh !important;
