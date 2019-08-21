@@ -1,0 +1,133 @@
+/* Set Default HTML and Body Properties */
+
+html, body {
+    font-family: 'Francois One', sans-serif;
+    background-color: #17a2b8;
+}
+
+/* Social Circle Button Classes: */
+
+/* Github Circle Button (Default Style) */
+
+.btnGithub {
+    box-shadow: 0 1px 15px 1px #343a40;
+    border: 10px solid #343a40 !important;
+}
+
+/* Github Circle Button (pseudo-classes) */
+
+.btnGithub:hover {
+    box-shadow: 0 1px 5px 1px #343a40;
+    border: 10px solid #343a40 !important;
+}
+
+.btnGithub:active {
+    box-shadow: 0 0 0 0 #343a40;
+    border: 8px solid #343a40 !important;
+}
+
+/* Linkedin Circle Button (Default Style) */
+
+.btnLinkedin {
+    box-shadow: 0 1px 15px 1px #343a40;
+    border: 10px solid #007bff !important;
+}
+
+/* Linkedin Circle Button (pseudo-classes) */
+
+.btnLinkedin:hover {
+    box-shadow: 0 1px 5px 1px #343a40;
+    border: 10px solid #007bff !important;
+}
+
+.btnLinkedin:active {
+    box-shadow: 0 0 0 0 #343a40;
+    border: 8px solid #007bff !important;
+}
+
+/* Set the shape and Font of the Social Circles*/
+
+.btnSocial {
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+/* Social Circle Animation (Up, Down, Up!) */
+
+.floating {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 6px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
+}
+
+/* Special Text Helper Classes */
+
+.text-darkerblue {
+    color: #1e5162 !important;
+}
+
+/* Heading Introductory Speech Bubble */
+
+.speech-bubble {
+    position: relative;
+    background: #00aabb;
+    border-radius: 0 0 85% 85%;
+    padding: 0;
+    margin: 0;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #00aabb;
+    border-bottom: 0;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+/* Firebase Connected Users Style */
+
+.users {
+    background-color: #343a40;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* Profile Filter & Curve */
+
+.profile {
+    filter: brightness(90%);
+    border-radius: 50%;
+    width: 20%;
+}
+
+/* Project Card Clearfix */
+
+.card-img-top {
+    width: 100% !important;
+}
+
+/* The 'About Me' Section Style */
+
+.second {
+    background-color: #ffffff !important;
+}

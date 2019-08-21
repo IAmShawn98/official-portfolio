@@ -1,165 +1,3 @@
-/* Global Styling */
-
-html, body {
-    font-family: 'Francois One', sans-serif;
-}
-
-html {
-    background-color: #17a2b8;
-}
-
-.btnGithub {
-    box-shadow: 0 1px 15px 1px #343a40;
-    border: 10px solid #343a40 !important;
-}
-
-.btnGithub:hover {
-    box-shadow: 0 1px 5px 1px #343a40;
-    border: 10px solid #343a40 !important;
-}
-
-.btnGithub:active {
-    box-shadow: 0 0 0 0 #343a40;
-    border: 8px solid #343a40 !important;
-}
-
-/* Hide Mobile Bubble */
-
-#bubblePhoneView {
-    display: none !important;
-}
-
-img {
-    width: 24vw !important;
-}
-
-.second {
-    background-color: #ffffff !important;
-}
-
-.fa-brain {
-    padding: 20px;
-    font-size: 200%;
-}
-
-.btn-success {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.progress.active .progress-bar {
-    -webkit-transition: none !important;
-    transition: none !important;
-}
-
-/* Connected Users Counter Style */
-
-.users {
-    background-color: #343a40;
-    font-weight: bold;
-    padding: 5px;
-}
-
-button {
-    font-size: 250% !important;
-}
-
-/* Social Circle Floating Animation */
-
-.floating {
-    animation-name: floating;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-}
-
-/* Up, Down, Up! */
-
-@keyframes floating {
-    from {
-        transform: translate(0, 0px);
-    }
-    65% {
-        transform: translate(0, 6px);
-    }
-    to {
-        transform: translate(0, -0px);
-    }
-}
-
-.footer {
-    background-color: #ec553b !important;
-    border-top: 2px solid #ffe200;
-    box-shadow: 5px 5px 5px 5px;
-    width: 100%;
-    bottom: 0;
-}
-
-/* Linkedin Button */
-
-.btnLinkedin {
-    box-shadow: 0 1px 15px 1px #343a40;
-    border: 10px solid #007bff !important;
-}
-
-.btnLinkedin:hover {
-    box-shadow: 0 1px 5px 1px #343a40;
-    border: 10px solid #007bff !important;
-}
-
-.btnLinkedin:active {
-    box-shadow: 0 0 0 0 #343a40;
-    border: 8px solid #007bff !important;
-}
-
-.speech-bubble {
-    position: relative;
-    background: #00aabb;
-    border-radius: 0 0 85% 85%;
-    padding: 0;
-    margin: 0;
-}
-
-.speech-bubble:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border: 20px solid transparent;
-    border-top-color: #00aabb;
-    border-bottom: 0;
-    margin-left: -20px;
-    margin-bottom: -20px;
-}
-
-/* Github Button */
-
-.btnSocial {
-    border-radius: 50%;
-    font-size: 50px;
-}
-
-.profile {
-    filter: brightness(90%);
-    border-radius: 50%;
-    width: 20%;
-}
-
-.nav-link {
-    background-color: #99ccff;
-    width: 100%;
-    margin-top: 10px;
-    border: 2px solid #000000;
-    font-size: 2rem !important;
-}
-
-.card-img-top {
-    width: 100% !important;
-}
-
 /* Phone */
 
 @media (min-width:320px) {
@@ -168,6 +6,9 @@ button {
         font-size: 2em !important;
         padding: 0 0 0 0 !important;
         margin: 0 !important;
+    }
+    .navbar-toggler {
+        font-size: 200%;
     }
     .navbar {
         width: 100vw;
@@ -207,7 +48,7 @@ button {
     /* Hide Desk Bubble */
     #bubblePhoneView {
         display: block !important;
-        font-size: 14px;
+        font-size: 20px;
     }
     /* Responsive Jumbotron */
     .jumbotron {

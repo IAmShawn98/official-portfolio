@@ -1,0 +1,7 @@
+.footer {
+    background-color: #ec553b !important;
+    border-top: 2px solid #ffe200;
+    box-shadow: 5px 5px 5px 5px;
+    width: 100%;
+    bottom: 0;
+}
