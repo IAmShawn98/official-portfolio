@@ -129,5 +129,21 @@ html, body {
 /* The 'About Me' Section Style */
 
 .second {
-    background-color: #ffffff !important;
+    background-color: #efefef !important;
+    /* Initially doing 100% without 'VH' as a fallback for older browsers */
+    min-height: 100%;
+    /* Sets the viewport height to be 100% */
+    min-height: 100vh;
+    /* Do Flex */
+    display: flex;
+    /* Align Items Center */
+    align-items: center;
+    /* Align Content Center */
+    justify-content: center;
+}
+
+/* Breadcrumb Style */
+
+.breadPallet {
+    background-color: #17a2b8 !important;
 }

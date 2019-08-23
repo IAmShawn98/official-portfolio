@@ -60,15 +60,31 @@ $(document).ready(function () {
 
         // HTML Bar Progress.
         $(".html").animate({
-            width: "100%"
+            width: "90%"
         }, 500);
         // CSS Bar Progress.
         $(".css").animate({
-            width: "100%"
+            width: "78%"
         }, 500);
         // JS Bar Progress.
         $(".js").animate({
-            width: "85%"
+            width: "68%"
+        }, 500);
+        // BATCH Bar Progress.
+        $(".batch").animate({
+            width: "48%"
+        }, 500);
+        // VBS Bar Progress.
+        $(".vbs").animate({
+            width: "28%"
+        }, 500);
+        // cSharp Bar Progress.
+        $(".cSharp").animate({
+            width: "22%"
+        }, 500);
+        // Python Bar Progress.
+        $(".python").animate({
+            width: "10%"
         }, 500);
 
         // Base Tools, Frameworks and Libraries (Progress Bar Animation Transition).
