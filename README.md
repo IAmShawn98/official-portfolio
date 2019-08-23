@@ -4,6 +4,6 @@ This is my official developers portfolio! Here, you will get to learn a bit abou
 
 ![[PH](PH)][preview]
 
-[preview]: PH "Logo Title Text 2"
+[preview]: PH "My Portfolio Site"
 
 View It <a href="https://iamshawn98.github.io/official-portfolio/">here</a>!
