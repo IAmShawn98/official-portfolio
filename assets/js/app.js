@@ -91,15 +91,23 @@ $(document).ready(function () {
 
         // VS Code Bar Progress.
         $(".vsCode").animate({
-            width: "90%"
+            width: "100%"
         }, 500);
         // Bootstrap Bar Progress.
         $(".bsFramework").animate({
-            width: "85%"
+            width: "90%"
         }, 500);
-        // jQuery Bar Progress.
-        $(".jQuery").animate({
-            width: "50%"
+        // Firebase Bar Progress.
+        $(".firebase").animate({
+            width: "78%"
+        }, 500);
+        // Nodejs Bar Progress.
+        $(".nodejs").animate({
+            width: "72%"
+        }, 500);
+        // mySQLWorkBench Bar Progress.
+        $(".workbench").animate({
+            width: "48%"
         }, 500);
     });
 
