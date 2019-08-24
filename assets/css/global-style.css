@@ -180,3 +180,8 @@ html, body {
 ::-webkit-scrollbar-thumb:hover {
     background: #b30000;
 }
+
+.card-invisible {
+    background: none;
+    border: none !important;
+}

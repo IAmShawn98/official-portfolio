@@ -40,22 +40,8 @@ $(document).ready(function () {
         $(".users").text(snap.numChildren());
     });
 
-
-    // Smooth Scroll to ---> 'About Me'.
-    $('.linkDiveDeeper').on('click', function (event) {
-        // Prevent Reloading.
-        event.preventDefault()
-
-        // Load the '.second' and '.third' classes
-        // so that we can scroll to them.
-        $(".second").show();
-        $(".third").show();
-
-        // Smooth Scroll Animate to the 'second' class.
-        $('html,body').animate({
-            scrollTop: $(".second").offset().top
-        }, 'slow'); // Do it slowly.
-
+    // Progress Bar Animation.
+    function progressBarAnimate() {
         // Base Development Technologies (Progress Bar Animation Transition).
 
         // HTML Bar Progress.
@@ -109,7 +95,29 @@ $(document).ready(function () {
         $(".workbench").animate({
             width: "48%"
         }, 500);
+    }
+
+
+
+    // Smooth Scroll to ---> 'About Me'.
+    $('.linkDiveDeeper').on('click', function (event) {
+        // Prevent Reloading.
+        event.preventDefault()
+
+        // Load the '.second' and '.third' classes
+        // so that we can scroll to them.
+        $(".second").show();
+        $(".third").show();
+
+        // Smooth Scroll Animate to the 'second' class.
+        $('html,body').animate({
+            scrollTop: $(".second").offset().top
+        }, 'slow'); // Do it slowly.
+
+        // Activate Progress Bar Animation.
+        progressBarAnimate();
     });
+
 
     // Smooth Scroll to ---> 'My Work'.
     $('.my-work').on('click', function (event) {
@@ -126,6 +134,9 @@ $(document).ready(function () {
         $('html,body').animate({
             scrollTop: $(".third").offset().top
         }, 'slow'); // Do it slowly.
+
+        // Activate Progress Bar Animation.
+        progressBarAnimate();
     });
 
     // Smooth Scroll to ---> 'Back to the Top ^'.
