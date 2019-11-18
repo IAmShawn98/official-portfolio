@@ -17,7 +17,7 @@ function ProfilePic() {
     return (
         <>
             {/* My Profile */}
-            <img id="ProfilePic" src="https://iamshawn98.github.io/official-portfolio/assets/images/profiles/myProfileShawn.jpg" class="img-thumbnail mx-auto d-block" alt="myProfileShawn.jpg" />
+            <img id="ProfilePic" src="#" class="img-thumbnail mx-auto d-block" alt="iamshawn.jpg" />
 
             {/* Dive Deeper (Label & Button) */}
             <div className="row mx-auto d-block text-center text-white">
