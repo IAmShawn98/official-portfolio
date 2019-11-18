@@ -200,3 +200,11 @@ span.btn.btn-primary.carousel-control-next-icon.waves-effect.waves-light {
     background: url(../../assets/images/bamazonCLI.png);
     background-size: cover;
 }
+
+/* IE & Edge Polygon fix */
+
+@supports (-ms-ime-align: auto) {
+    .StackTab {
+        border-radius: 100%;
+    }
+}
