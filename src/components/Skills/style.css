@@ -103,11 +103,11 @@ span.btn.btn-primary.carousel-control-next-icon.waves-effect.waves-light {
 
 .StackType {
     position: relative;
-    left: 18%;
-    top: 10vh;
+    left: 18% !important;
+    top: 10vh !important;
     background-color: #099cea !important;
-    z-index: -999999;
-    width: 30%;
+    /* z-index: -999999 !important; */
+    width: 30% !important;
 }
 
 hr {
@@ -131,7 +131,7 @@ hr {
     top: 15vh;
     text-align: center;
     width: 100%;
-    z-index: -999999;
+    /* z-index: -999999; */
 }
 
 .nav-tabs {
