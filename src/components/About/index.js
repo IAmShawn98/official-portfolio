@@ -32,7 +32,7 @@ function About() {
                   How It All Started.
                 </h2>
                 <p class="lead white-text">
-                  I was born in Delware County Pennsylvania
+                  I was born in Delaware County Pennsylvania
                   and am currently a Full Stack Web Developer. I started programming at age twelve when I was
                   bored one night sitting on my family's Windows XP desktop. I looked up 'How to Make A Game
                   In 10 Minutes'. At the time, I didn't know much about programming, but I did get results
