@@ -1,0 +1,5 @@
+@media (min-width: 320px) and (max-width: 481px) {
+    hr.clearfix.w-100.d-md-none.pb-3 {
+        background-color: #1f6199;
+    }
+}

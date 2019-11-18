@@ -1,0 +1,60 @@
+@media (min-width: 642px) and (max-width: 961px) {
+    .navbar {
+        background-color: #1f639b !important;
+        width: 100% !important;
+    }
+    .navbar-brand {
+        font-size: 350%;
+    }
+    .navbar-nav {
+        font-size: 250%;
+    }
+    .nav-link {
+        margin: 0;
+    }
+    #SocialCircleLabel {
+        font-size: 200%;
+        text-align: center;
+        display: none;
+    }
+    .fa-github {
+        background-color: #333333;
+        color: #ffffff;
+        border-radius: 100% 100% 100%;
+        padding: 40px;
+        cursor: pointer;
+        transition: 2s;
+        font-size: 120%;
+        display: none;
+    }
+    .fa-linkedin {
+        background-color: #007bff;
+        color: #ffffff;
+        border-radius: 100% 100% 100%;
+        padding: 40px;
+        cursor: pointer;
+        transition: 2s;
+        font-size: 120%;
+        display: none;
+    }
+    .text-turk {
+        color: #2fcec1;
+    }
+    .hover-effect {
+        animation-name: floating;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes floating {
+        from {
+            transform: translate(0, 0px);
+        }
+        65% {
+            transform: translate(0, 6px);
+        }
+        to {
+            transform: translate(0, -0px);
+        }
+    }
+}
