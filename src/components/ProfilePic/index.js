@@ -22,7 +22,7 @@ function ProfilePic() {
             {/* Dive Deeper (Label & Button) */}
             <div className="row mx-auto d-block text-center text-white">
                 <div id="DiveDeeper" className="col-md-12">
-                    <h1 className="display-4">Dive Deeper!</h1>
+                    <h1 id="DeepDiveText" className="display-4">Dive Deeper!</h1>
                     <Link className="nav-link hvr-grow text-white"
                         activeClass="active" to="AboutMe"
                         spy={true}
