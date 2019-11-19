@@ -1,8 +1,7 @@
 html, body {
     font-family: 'Francois One', sans-serif;
     background-color: #ec553b;
-    background-image: url("https://www.transparenttextures.com/patterns/noise-lines.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-image: url(./assets/images/site-bg.png);
 }
 
 /* Scrollbar Style */
