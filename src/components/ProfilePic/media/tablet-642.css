@@ -1,7 +1,8 @@
 @media (min-width: 642px) and (max-width: 961px) {
     #ProfilePic {
         position: relative;
-        bottom: 130px;
+        width: 35vh !important;
+        bottom: 170px;
         min-height: 5%;
         min-height: 5vh;
         width: 30%;
@@ -10,6 +11,6 @@
     }
     #DiveDeeper {
         position: relative;
-        bottom: 120px;
+        bottom: 160px;
     }
 }
