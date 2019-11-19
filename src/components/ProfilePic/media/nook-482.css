@@ -1,6 +1,7 @@
 @media (min-width: 482px) and (max-width: 641px) {
     #ProfilePic {
         position: relative;
+        width: 40vh;
         bottom: 140px;
         min-height: 10%;
         min-height: 10vh;
