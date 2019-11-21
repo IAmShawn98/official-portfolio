@@ -15,59 +15,59 @@ import './media/highres-desktop-1282.css'; // hi-res laptops and desktops.
 function Navbar() {
     return (
         // Navbar Container
-        <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+        <nav className="navbar navbar-expand-lg navbar-dark primary-color">
             {/* Navbar Brand */}
-            <a class="navbar-brand" href="/">Shawn Luther</a>
+            <a className="navbar-brand" href="/">Shawn Luther</a>
             {/* Navbar Mobile Collapse */}
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#AppNav" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#AppNav" aria-expanded="false">
+                <span className="navbar-toggler-icon"></span>
             </button>
             {/* Navbar Mobile Collapse Content Container */}
-            <div class="collapse navbar-collapse" id="AppNav">
+            <div className="collapse navbar-collapse" id="AppNav">
                 {/* Social Circles Container*/}
-                <ul class="navbar-nav ml-auto">
+                <ul className="navbar-nav ml-auto">
                     <div className="row">
                         <div className="col-md-12 offset-2 text-center">
                             {/* Social Circle Brand */}
                             <h2 id="SocialCircleLabel" className="text-white">My Social Circles</h2>
                             {/* Social Circle (Github) */}
-                            <a className="hover-effect" target="_blank" rel="noopener noreferrer" href="https://github.com/IAmShawn98"><i class="fa fa-github mr-4 hvr-bounce-out" aria-hidden="true"></i></a>
+                            <a className="hover-effect" target="_blank" rel="noopener noreferrer" href="https://github.com/IAmShawn98"><i className="fa fa-github mr-4 hvr-bounce-out" aria-hidden="true"></i></a>
                             {/* Social Circle (Linkedin) */}
-                            <a className="hover-effect" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shawn-luther-a11109148/"><i class="fa fa-linkedin hvr-bounce-out" aria-hidden="true"></i></a>
+                            <a className="hover-effect" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shawn-luther-a11109148/"><i className="fa fa-linkedin hvr-bounce-out" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </ul>
                 {/* Navbar App Routing */}
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <Link className="nav-link hvr-grow text-white"
-                            activeClass="active" to="AboutMe"
+                <ul className="navbar-nav ml-auto">
+                    <li className="nav-item">
+                        <Link classNameName="nav-link hvr-grow text-white"
+                            activeclassName="active" to="AboutMe"
                             spy={true}
                             smooth={true}
                             offset={0}
                             duration={500}>
-                            <span className="text-turk">&#123;</span> <i class="fa fa-info-circle" aria-hidden="true"></i> About Me <span className="text-turk">&#125;</span>
+                            <span className="text-turk">&#123;</span> <i className="fa fa-info-circle" aria-hidden="true"></i> About Me <span className="text-turk">&#125;</span>
                         </Link>
                         {/* <a class="nav-link hvr-grow" href="/"><span className="text-turk">&#123;</span> <i class="fa fa-info-circle" aria-hidden="true"></i> About Me <span className="text-turk">&#125;</span></a> */}
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         <Link className="nav-link hvr-grow text-white"
                             activeClass="active" to="MySkillsHeader"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             duration={500}>
-                            <span className="text-turk">&#123;</span> <i class="fa fa-code"></i> Skills & Projects <span className="text-turk">&#125;</span>
+                            <span className="text-turk">&#123;</span> <i className="fa fa-code"></i> Skills & Projects <span className="text-turk">&#125;</span>
                         </Link>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         <Link className="nav-link hvr-grow text-white"
                             activeClass="active" to="footer"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             duration={500}>
-                            <span className="text-turk">&#123;</span> <i class="fa fa-address-card"></i> Contact <span className="text-turk">&#125;</span>
+                            <span className="text-turk">&#123;</span> <i className="fa fa-address-card"></i> Contact <span className="text-turk">&#125;</span>
                         </Link>
                     </li>
                 </ul>
