@@ -1,6 +1,8 @@
 // Dependencies.
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import React from 'react';
+
+// Default Styles.
 import './style.css';
 
 // Responsive Styles.
@@ -14,7 +16,7 @@ import './media/highres-desktop-1282.css'; // hi-res laptops and desktops.
 // Component 'Navbar'.
 function Navbar() {
     return (
-        // Navbar Container
+        // Navbar Container.
         <nav className="navbar navbar-expand-lg navbar-dark primary-color">
             {/* Navbar Brand */}
             <a className="navbar-brand" href="/">Shawn Luther</a>
@@ -38,6 +40,7 @@ function Navbar() {
                     </div>
                 </ul>
                 {/* Navbar App Routing */}
+                {/* Link ---> About Me */}
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
                         <Link className="nav-link hvr-grow text-white"
@@ -48,8 +51,8 @@ function Navbar() {
                             duration={500}>
                             <span className="text-turk">&#123;</span> <i className="fa fa-info-circle" aria-hidden="true"></i> About Me <span className="text-turk">&#125;</span>
                         </Link>
-                        {/* <a class="nav-link hvr-grow" href="/"><span className="text-turk">&#123;</span> <i class="fa fa-info-circle" aria-hidden="true"></i> About Me <span className="text-turk">&#125;</span></a> */}
                     </li>
+                    {/* Link ---> MY Skills */}
                     <li className="nav-item">
                         <Link className="nav-link hvr-grow text-white"
                             activeClass="active" to="MySkillsHeader"
@@ -60,6 +63,7 @@ function Navbar() {
                             <span className="text-turk">&#123;</span> <i className="fa fa-code"></i> Skills & Projects <span className="text-turk">&#125;</span>
                         </Link>
                     </li>
+                    {/* Link ---> Footer / Contact Info */}
                     <li className="nav-item">
                         <Link className="nav-link hvr-grow text-white"
                             activeClass="active" to="footer"
