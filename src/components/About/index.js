@@ -1,6 +1,8 @@
 // Dependencies.
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import React from 'react';
+
+// Default Styles.
 import './style.css';
 
 // Responsive Styles.
@@ -16,10 +18,12 @@ function About() {
   return (
     <div id="AboutMe">
       <div id="MyYoungProfile">
-        {/* Young Profile Image */}
+        {/* Young Shawn Profile Picture */}
       </div>
+      {/* About Me Section */}
       <div class="card cardTransparency text-white">
         <div class="view p-3">
+          {/* About Me Title */}
           <div class="flex-top text-center rgba-red-strong AboutMeContent">
             <h1 class="white-text font-weight-bold">
               - A Bit About Me -
@@ -62,13 +66,14 @@ function About() {
                   Developer and contribute to teams and build quality
                   applications for the web.
                </p>
+                {/* 'View My SKills' Button */}
                 <Link className="nav-link hvr-grow text-white"
                   activeClass="active" to="MySkillsHeader"
                   spy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}>
-                  <button className="btn btn-danger">View My SKills</button>
+                  <button className="btn btn-danger">View My Skills</button>
                 </Link>
               </div>
             </div>
