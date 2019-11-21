@@ -40,7 +40,7 @@ function Navbar() {
                 {/* Navbar App Routing */}
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <Link classNameName="nav-link hvr-grow text-white"
+                        <Link className="nav-link hvr-grow text-white"
                             activeclassName="active" to="AboutMe"
                             spy={true}
                             smooth={true}
