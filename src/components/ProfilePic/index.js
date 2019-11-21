@@ -1,6 +1,8 @@
 // Dependencies.
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import React from 'react';
+
+// Default Styles.
 import './style.css';
 
 // Responsive Styles.
@@ -16,7 +18,7 @@ import './media/highres-desktop-1282.css'; // hi-res laptops and desktops.
 function ProfilePic() {
     return (
         <>
-            {/* My Profile */}
+            {/* Image of Shawn */}
             <img id="ProfilePic" src="https://github.com/IAmShawn98/official-portfolio/blob/master/src/assets/images/iamshawn.jpg?raw=true" class="img-thumbnail mx-auto d-block" alt="iamshawn.jpg" />
 
             {/* Dive Deeper (Label & Button) */}
