@@ -6,7 +6,7 @@
         -moz-animation: AnimationName 30s ease infinite;
         -o-animation: AnimationName 30s ease infinite;
         animation: AnimationName 30s ease infinite;
-        height: 60vh !important;
+        height: 70vh !important;
         color: #ffffff;
         box-shadow: none !important;
         padding: 0;
@@ -14,7 +14,7 @@
     }
     div#MySkills {
         position: relative;
-        top: -70px;
+        top: -40px;
         width: 100vw;
     }
     .fa-5x {
@@ -34,7 +34,7 @@
     nav#SkillLinks {
         background: none !important;
         box-shadow: none !important;
-        font-size: 10px;
+        font-size: 20px;
     }
     @-webkit-keyframes AnimationName {
         0% {
@@ -126,7 +126,6 @@
     }
     .StackType {
         position: relative;
-        margin-left: -25px;
         background-color: #099cea !important;
         /* z-index: -999999; */
         width: 76%;
