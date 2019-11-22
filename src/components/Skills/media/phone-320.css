@@ -14,7 +14,7 @@
     }
     div#MySkills {
         position: relative;
-        top: -40px;
+        bottom: 10vh;
         width: 100vw;
     }
     .fa-5x {
@@ -93,7 +93,7 @@
     a#profile-tab {
         position: relative;
         top: -11px;
-        right: 54px;
+        right: 5vh;
     }
     a#home-tab {
         position: relative;
@@ -126,22 +126,10 @@
     }
     .StackType {
         position: relative;
+        margin-top: 3vh;
         background-color: #099cea !important;
-        /* z-index: -999999; */
-        width: 76%;
-        height: 56vh;
-        margin-top: 2vh;
-    }
-    #MyResumeLabel {
-        display: none;
-        position: relative;
-        top: 15vh;
-        text-align: center;
-        width: 100%;
-        /* z-index: -999999; */
-    }
-    hr {
-        background-color: #ffffff;
+        display: grid;
+        width: 63vh !important;
     }
     .StackTab {
         position: relative;
@@ -151,6 +139,9 @@
         color: #ffffff!important;
         cursor: pointer !important;
     }
+    hr {
+        background-color: #ffffff;
+    }
     .nav-tabs {
         border: none !important;
     }
@@ -158,8 +149,8 @@
         position: relative;
         top: 20vh;
         left: 0%;
-        width: 50vh !important;
-        height: 60vh !important;
+        width: 80vh !important;
+        height: 100vh !important;
     }
     #ProjectSlider {
         position: relative;
