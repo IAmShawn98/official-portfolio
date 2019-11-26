@@ -238,7 +238,7 @@ function Skills() {
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="card project">
-                                                    <a target="_blank" href="https://www.youtube.com/watch?v=gGFVIu9c62k&feature=youtu.be"> rel="noopener noreferrer"
+                                                    <a target="_blank" href="https://www.youtube.com/watch?v=gGFVIu9c62k&feature=youtu.be" rel="noopener noreferrer">
                                                         <div className="card-img-top bamazon"></div>
                                                     </a>
                                                     <div className="card-body">
