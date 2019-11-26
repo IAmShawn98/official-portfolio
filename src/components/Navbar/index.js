@@ -43,7 +43,7 @@ function Navbar() {
                 {/* Link ---> About Me */}
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <Link className="nav-link hvr-grow text-white"
+                        <Link className="nav-link hvr-grow text-white LinkLoadContent"
                             activeclassName="active" to="AboutMe"
                             spy={true}
                             smooth={true}
@@ -54,7 +54,7 @@ function Navbar() {
                     </li>
                     {/* Link ---> MY Skills */}
                     <li className="nav-item">
-                        <Link className="nav-link hvr-grow text-white"
+                        <Link className="nav-link hvr-grow text-white LinkLoadContent"
                             activeClass="active" to="MySkillsHeader"
                             spy={true}
                             smooth={true}
@@ -65,7 +65,7 @@ function Navbar() {
                     </li>
                     {/* Link ---> Footer / Contact Info */}
                     <li className="nav-item">
-                        <Link className="nav-link hvr-grow text-white"
+                        <Link className="nav-link hvr-grow text-white LinkLoadContent"
                             activeClass="active" to="footer"
                             spy={true}
                             smooth={true}
