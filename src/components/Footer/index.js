@@ -10,13 +10,16 @@ import './media/tablet-642.css'; // portrait tablets, portrait iPad, landscape e
 // Component 'Footer'.
 function Footer() {
     return (
+        // Footer Container.
         <footer id="footer" class="page-footer font-small blue pt-4">
             <div class="container-fluid text-center text-md-left">
                 <div class="row">
                     <div class="col-md-3 mt-md-0">
                         <h5 class="text-uppercase">Contact Info</h5>
-                        Have more questions? Contact me using either of the options below. <br />
-                        If I miss your call, I sure won't miss your email!
+                        Would you like to contact me for any reason? <br />
+                        You can do so via phone or email. Otherwise,  <br />
+                        check out my LinkedIn Profile and Github  <br />
+                        for more information.
                         <br /> <br />
                         <p>
                             Email Me: shawnluther99@gmail.com
@@ -56,6 +59,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            {/* Author Credit */}
             <div class="footer-copyright text-center py-3"> A Thing By
                 <a href="https://www.linkedin.com/in/shawn-luther/"> Shawn Luther </a>
                 2019

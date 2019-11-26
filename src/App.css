@@ -4,7 +4,13 @@ html, body {
     background-image: url(./assets/images/site-bg.png);
 }
 
-/* Ensures the white space of the page always fits. */
+/* Keep all elements hidden until called for */
+
+#AboutMe, #MySkillsContainer, footer {
+    display: none;
+}
+
+/* Ensures the white space of the page always fits */
 
 @media (min-width: 320px) and (max-width: 641px) {
     html {
