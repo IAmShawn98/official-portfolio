@@ -19,7 +19,7 @@ function Navbar() {
         // Navbar Container.
         <nav className="navbar navbar-expand-lg navbar-dark primary-color">
             {/* Navbar Brand */}
-            <a className="navbar-brand" href="/">Shawn Luther</a>
+            <a className="navbar-brand" href="/" rel="noopener noreferrer">Shawn Luther</a>
             {/* Navbar Mobile Collapse */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#AppNav" aria-expanded="false">
                 <span className="navbar-toggler-icon"></span>

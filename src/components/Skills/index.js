@@ -28,12 +28,12 @@ function Skills() {
             <nav id="SkillLinks" class="navbar navbar-expand-lg navbar-dark primary-color mb-5">
                 <ul class="navbar-nav mx-auto nav nav-tabs">
                     <li data-tip="Full Stack Skills + Resume (PDF)" class="nav-item">
-                        <a class="nav-link m-4 StackTab hvr-bounce-in" id="home-tab" data-toggle="tab" href="#MySkills">
+                        <a class="nav-link m-4 StackTab hvr-bounce-in" id="home-tab" data-toggle="tab" href="#MySkills" rel="noopener noreferrer">
                             <i class="fa fa-server fa-2x p-5" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li data-tip="My Work (Projects)" class="nav-item">
-                        <a class="nav-link m-4 StackTab hvr-bounce-in" id="profile-tab" data-toggle="tab" href="#ProjectSlider">
+                        <a class="nav-link m-4 StackTab hvr-bounce-in" id="profile-tab" data-toggle="tab" href="#ProjectSlider" rel="noopener noreferrer">
                             <i class="fa fa-desktop fa-2x p-5" aria-hidden="true"></i>
                         </a>
                     </li>
