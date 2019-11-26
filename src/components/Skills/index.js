@@ -102,7 +102,7 @@ function Skills() {
                                 This is a short preview of each of my six most proud projects from school, work, and personal.
                                 You can cycle through the list by tapping the small blue circles at the bottom of the project
                                 cards or by swiping left or right on the screen. If you want to view more of my work, please
-                                visit my <a className="text-danger" href="https://github.com/IAmShawn98">Github</a> or <a className="text-danger" href="https://www.linkedin.com/in/shawn-luther-a11109148/">LinkedIn</a> for more information.
+                                visit my <a className="text-danger" href="https://github.com/IAmShawn98" rel="noopener noreferrer">Github</a> or <a className="text-danger" href="https://www.linkedin.com/in/shawn-luther-a11109148/" rel="noopener noreferrer">LinkedIn</a> for more information.
                             </p>
                         </div>
 
@@ -113,7 +113,7 @@ function Skills() {
                                         <div className="row">
                                             <div className="col-md-4">
                                                 <div className="card project">
-                                                    <a target="_blank" href="https://iamshawn98.github.io/gtm-quickshare/index.html">
+                                                    <a target="_blank" href="https://iamshawn98.github.io/gtm-quickshare/index.html" rel="noopener noreferrer">
                                                         <div className="card-img-top quickshare"></div>
                                                     </a>
                                                     <div className="card-body">
@@ -123,12 +123,12 @@ function Skills() {
                                                             teams Excel Macros, Workbooks, user guides, documentation, and
                                                             any piece of software that needs constant attention.
                                                         </p>
-                                                        <a target="_blank" href="https://iamshawn98.github.io/gtm-quickshare/index.html">
+                                                        <a target="_blank" href="https://iamshawn98.github.io/gtm-quickshare/index.html" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
-                                                        <a target="_blank" href="https://github.com/IAmShawn98/gtm-quickshare">
+                                                        <a target="_blank" href="https://github.com/IAmShawn98/gtm-quickshare" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
@@ -138,7 +138,7 @@ function Skills() {
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="card project">
-                                                    <a target="_blank" href="https://locobounce.herokuapp.com/">
+                                                    <a target="_blank" href="https://locobounce.herokuapp.com/" rel="noopener noreferrer">
                                                         <div className="card-img-top locobounce"></div>
                                                     </a>
                                                     <div className="card-body">
@@ -148,12 +148,12 @@ function Skills() {
                                                             We have a dataset including a wide variety of tools and statistics that are
                                                             essential to know before taking your next big trip.
                                                         </p>
-                                                        <a target="_blank" href="https://locobounce.herokuapp.com/">
+                                                        <a target="_blank" href="https://locobounce.herokuapp.com/" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
-                                                        <a target="_blank" href="https://github.com/IAmShawn98/LocoBounce">
+                                                        <a target="_blank" href="https://github.com/IAmShawn98/LocoBounce" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
@@ -163,7 +163,7 @@ function Skills() {
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="card project">
-                                                    <a target="_blank" href="https://locobounce.herokuapp.com/">
+                                                    <a target="_blank" href="https://locobounce.herokuapp.com/" rel="noopener noreferrer">
                                                         <div className="card-img-top mongoscraper"></div>
                                                     </a>
                                                     <div className="card-body">
@@ -171,12 +171,12 @@ function Skills() {
                                                         <p className="card-text">
                                                             Scrape the latest news from the New York Times and save your favorite news articles.
                                                         </p>
-                                                        <a target="_blank" href="https://locobounce.herokuapp.com/">
+                                                        <a target="_blank" href="https://locobounce.herokuapp.com/" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
-                                                        <a target="_blank" href="https://github.com/IAmShawn98/LocoBounce">
+                                                        <a target="_blank" href="https://github.com/IAmShawn98/LocoBounce" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
@@ -190,7 +190,7 @@ function Skills() {
                                         <div className="row">
                                             <div className="col-md-4">
                                                 <div className="card project">
-                                                    <a target="_blank" href="https://iamshawn98.github.io/TriviaGame/">
+                                                    <a target="_blank" href="https://iamshawn98.github.io/TriviaGame/" rel="noopener noreferrer">
                                                         <div className="card-img-top triviagame"></div>
                                                     </a>
                                                     <div className="card-body">
@@ -198,12 +198,12 @@ function Skills() {
                                                         <p className="card-text">
                                                             Test your knowledge of classic 1990s Nickelodeon cartoons!
                                                         </p>
-                                                        <a target="_blank" href="https://iamshawn98.github.io/TriviaGame/">
+                                                        <a target="_blank" href="https://iamshawn98.github.io/TriviaGame/" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
-                                                        <a target="_blank" href="https://github.com/IAmShawn98/TriviaGame">
+                                                        <a target="_blank" href="https://github.com/IAmShawn98/TriviaGame" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
@@ -213,7 +213,7 @@ function Skills() {
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="card project">
-                                                    <a target="_blank" href="https://iamshawn98.github.io/word-guess-game/">
+                                                    <a target="_blank" href="https://iamshawn98.github.io/word-guess-game/" rel="noopener noreferrer">
                                                         <div className="card-img-top wordguessgame"></div>
                                                     </a>
                                                     <div className="card-body">
@@ -223,12 +223,12 @@ function Skills() {
                                                             and stop Hangman from meeting his tragic fate. You have a limited
                                                             number of guesses to make, so be sure to choose letters wisely!
                                                         </p>
-                                                        <a target="_blank" href="https://iamshawn98.github.io/word-guess-game/">
+                                                        <a target="_blank" href="https://iamshawn98.github.io/word-guess-game/" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
-                                                        <a target="_blank" href="https://github.com/IAmShawn98/word-guess-game">
+                                                        <a target="_blank" href="https://github.com/IAmShawn98/word-guess-game" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
@@ -238,7 +238,7 @@ function Skills() {
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="card project">
-                                                    <a target="_blank" href="https://www.youtube.com/watch?v=gGFVIu9c62k&feature=youtu.be">
+                                                    <a target="_blank" href="https://www.youtube.com/watch?v=gGFVIu9c62k&feature=youtu.be"> rel="noopener noreferrer"
                                                         <div className="card-img-top bamazon"></div>
                                                     </a>
                                                     <div className="card-body">
@@ -248,12 +248,12 @@ function Skills() {
                                                             created using Node js and MYSQL that allows you to buy, manage,
                                                             and supervise your very own store!
                                                         </p>
-                                                        <a target="_blank" href="https://www.youtube.com/watch?v=gGFVIu9c62k&feature=youtu.be">
+                                                        <a target="_blank" href="https://www.youtube.com/watch?v=gGFVIu9c62k&feature=youtu.be" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
-                                                        <a target="_blank" href="https://github.com/IAmShawn98/bamazon-cli-app">
+                                                        <a target="_blank" href="https://github.com/IAmShawn98/bamazon-cli-app" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
@@ -273,8 +273,8 @@ function Skills() {
                                     <span className="sr-only">Previous</span>
                                 </a> */}
                                 <ol className="carousel-indicators">
-                                    <li id="prev" className="carousel-control-prev" href="#carouselExampleControls" data-slide="prev" data-slide-to="0" className="active"></li>
-                                    <li id="next" className="carousel-control-next" href="#carouselExampleControls" data-slide="next" data-slide-to="1" className=""></li>
+                                    <li id="prev" className="carousel-control-prev" href="#carouselExampleControls" rel="noopener noreferrer" data-slide="prev" data-slide-to="0" className="active"></li>
+                                    <li id="next" className="carousel-control-next" href="#carouselExampleControls" rel="noopener noreferrer" data-slide="next" data-slide-to="1" className=""></li>
                                 </ol>
                             </div>
                         </div>

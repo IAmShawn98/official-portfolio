@@ -17,10 +17,10 @@ import './media/highres-desktop-1282.css'; // hi-res laptops and desktops.
 function Jumbotron() {
     return (
         // "Jumbotron" Container. I promise it started out as a Jumbotron, but an alert worked better!
-        <div id="alertBubble" class="alert alert-primary text-center" role="alert">
+        <div id="alertBubble" className="alert alert-primary text-center" role="alert">
             {/* Alert Content */}
             <h4 id="bubbleBrand" className="mt-2">
-                Welcome to my official portfolio! I am Shawn Luther — A Full Stack Web Developer! <i class="fa fa-wrench" aria-hidden="true"></i>
+                Welcome to my official portfolio! I am Shawn Luther — A Full Stack Web Developer! <i className="fa fa-wrench" aria-hidden="true"></i>
             </h4>
         </div>
     );
