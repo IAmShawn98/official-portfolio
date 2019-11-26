@@ -31,7 +31,7 @@ function ProfilePic() {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <button id="BtnAboutMe" className="btn btn-info mx-auto d-block hvr-icon-sink">
+                        <button className="btn btn-info mx-auto d-block hvr-icon-sink LinkLoadContent">
                             About Me <i class="fa fa-arrow-circle-o-down hvr-icon"></i>
                         </button>
                     </Link>
