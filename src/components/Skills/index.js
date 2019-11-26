@@ -15,9 +15,9 @@ import './media/highres-desktop-1282.css'; // hi-res laptops and desktops.
 function Skills() {
     return (
         <div id="MySkillsContainer">
-            <div id="MySkillsHeader" class="jumbotron jumbotron-fluid p-4 m-0">
-                <div class="container-fluid text-center hover-effect">
-                    <i class="fa fa-language fa-5x mt-5" aria-hidden="true"></i>
+            <div id="MySkillsHeader" className="jumbotron jumbotron-fluid p-4 m-0">
+                <div className="container-fluid text-center hover-effect">
+                    <i className="fa fa-language fa-5x mt-5" aria-hidden="true"></i>
                     <h1 id="SkillsText" className="display-4 mt-3">My SKill Set.</h1>
                     <p className="lead">
                         Click on any of the icons below to view my tech skills, resume, and
@@ -25,29 +25,29 @@ function Skills() {
                     </p>
                 </div>
             </div>
-            <nav id="SkillLinks" class="navbar navbar-expand-lg navbar-dark primary-color mb-5">
-                <ul class="navbar-nav mx-auto nav nav-tabs">
-                    <li data-tip="Full Stack Skills + Resume (PDF)" class="nav-item">
-                        <a class="nav-link m-4 StackTab hvr-bounce-in" id="home-tab" data-toggle="tab" href="#MySkills" rel="noopener noreferrer">
-                            <i class="fa fa-server fa-2x p-5" aria-hidden="true"></i>
+            <nav id="SkillLinks" className="navbar navbar-expand-lg navbar-dark primary-color mb-5">
+                <ul className="navbar-nav mx-auto nav nav-tabs">
+                    <li data-tip="Full Stack Skills + Resume (PDF)" className="nav-item">
+                        <a className="nav-link m-4 StackTab hvr-bounce-in" id="home-tab" data-toggle="tab" href="#MySkills" rel="noopener noreferrer">
+                            <i className="fa fa-server fa-2x p-5" aria-hidden="true"></i>
                         </a>
                     </li>
-                    <li data-tip="My Work (Projects)" class="nav-item">
-                        <a class="nav-link m-4 StackTab hvr-bounce-in" id="profile-tab" data-toggle="tab" href="#ProjectSlider" rel="noopener noreferrer">
-                            <i class="fa fa-desktop fa-2x p-5" aria-hidden="true"></i>
+                    <li data-tip="My Work (Projects)" className="nav-item">
+                        <a className="nav-link m-4 StackTab hvr-bounce-in" id="profile-tab" data-toggle="tab" href="#ProjectSlider" rel="noopener noreferrer">
+                            <i className="fa fa-desktop fa-2x p-5" aria-hidden="true"></i>
                         </a>
                     </li>
                     <ReactTooltip />
                 </ul>
             </nav>
-            <div class="container tab-content">
-                <div class="tab-pane fade show active" id="MySkills">
+            <div className="container tab-content">
+                <div className="tab-pane fade show active" id="MySkills">
                     <div className="row">
-                        <div class="card StackType animated bounceIn mr-5">
-                            <div class="card-body text-white">
+                        <div className="card StackType animated bounceIn mr-5">
+                            <div className="card-body text-white">
                                 <div className="text-center">
-                                    <i class="fa fa-paint-brush mb-2 fa-3x"></i>
-                                    <h4 class="card-title">Front-End Development</h4>
+                                    <i className="fa fa-paint-brush mb-2 fa-3x"></i>
+                                    <h4 className="card-title">Front-End Development</h4>
                                     <hr />
                                 </div>
                                 <ul>
@@ -60,11 +60,11 @@ function Skills() {
                                 </ul>
                             </div>
                         </div>
-                        <div class="card StackType animated bounceIn">
-                            <div class="card-body text-white">
+                        <div className="card StackType animated bounceIn">
+                            <div className="card-body text-white">
                                 <div className="text-center">
-                                    <i class="fa fa-cogs mb-2 fa-3x" aria-hidden="true"></i>
-                                    <h4 class="card-title">Back-End Development</h4>
+                                    <i className="fa fa-cogs mb-2 fa-3x" aria-hidden="true"></i>
+                                    <h4 className="card-title">Back-End Development</h4>
                                     <hr />
                                 </div>
                                 <ul>
@@ -79,8 +79,8 @@ function Skills() {
                         </div>
                     </div>
                     <div className="row">
-                        <div id="MyResumeLabel" class="animated bounceIn">
-                            <div class="text-white">
+                        <div id="MyResumeLabel" className="animated bounceIn">
+                            <div className="text-white">
                                 <h1>My Resume</h1>
                             </div>
                         </div>
@@ -94,11 +94,11 @@ function Skills() {
                         </p>
                     </iframe>
                 </div>
-                <div class="tab-pane fade" id="ProjectSlider">
-                    <div id="ProjectContainer" class="jumbotron jumbotron m-0 sm-shadow">
-                        <div class="animated bounceIn container">
-                            <h2 class="display-4 text-white">My Projects!</h2>
-                            <p class="lead text-white">
+                <div className="tab-pane fade" id="ProjectSlider">
+                    <div id="ProjectContainer" className="jumbotron jumbotron m-0 sm-shadow">
+                        <div className="animated bounceIn container">
+                            <h2 className="display-4 text-white">My Projects!</h2>
+                            <p className="lead text-white">
                                 This is a short preview of each of my six most proud projects from school, work, and personal.
                                 You can cycle through the list by tapping the small blue circles at the bottom of the project
                                 cards or by swiping left or right on the screen. If you want to view more of my work, please
@@ -106,30 +106,30 @@ function Skills() {
                             </p>
                         </div>
 
-                        <div class="tab-pane fade show" id="home">
-                            <div id="carouselExampleControls" class="animated bounceIn carousel slide" data-interval="false">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
+                        <div className="tab-pane fade show" id="home">
+                            <div id="carouselExampleControls" className="animated bounceIn carousel slide" data-interval="false">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
                                         <div className="row">
                                             <div className="col-md-4">
-                                                <div class="card project">
+                                                <div className="card project">
                                                     <a target="_blank" href="https://iamshawn98.github.io/gtm-quickshare/index.html">
-                                                        <div class="card-img-top quickshare"></div>
+                                                        <div className="card-img-top quickshare"></div>
                                                     </a>
-                                                    <div class="card-body">
-                                                        <h4 class="card-title text-primary"><a>GTM QuickShare</a></h4>
-                                                        <p class="card-text">
+                                                    <div className="card-body">
+                                                        <h4 className="card-title text-primary"><a>GTM QuickShare</a></h4>
+                                                        <p className="card-text">
                                                             GTM QuickShare is an internal file repository built to house your
                                                             teams Excel Macros, Workbooks, user guides, documentation, and
                                                             any piece of software that needs constant attention.
                                                         </p>
                                                         <a target="_blank" href="https://iamshawn98.github.io/gtm-quickshare/index.html">
-                                                            <button type="button" class="btn btn-outline-success waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
                                                         <a target="_blank" href="https://github.com/IAmShawn98/gtm-quickshare">
-                                                            <button type="button" class="btn btn-outline-info waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
                                                         </a>
@@ -137,24 +137,24 @@ function Skills() {
                                                 </div>
                                             </div>
                                             <div className="col-md-4">
-                                                <div class="card project">
+                                                <div className="card project">
                                                     <a target="_blank" href="https://locobounce.herokuapp.com/">
-                                                        <div class="card-img-top locobounce"></div>
+                                                        <div className="card-img-top locobounce"></div>
                                                     </a>
-                                                    <div class="card-body">
-                                                        <h4 class="text-primary"><a>LocoBounce</a></h4>
-                                                        <p class="card-text">
+                                                    <div className="card-body">
+                                                        <h4 className="text-primary"><a>LocoBounce</a></h4>
+                                                        <p className="card-text">
                                                             LocoBounce is an app for people looking to relocate to any city all around the world.
                                                             We have a dataset including a wide variety of tools and statistics that are
                                                             essential to know before taking your next big trip.
                                                         </p>
                                                         <a target="_blank" href="https://locobounce.herokuapp.com/">
-                                                            <button type="button" class="btn btn-outline-success waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
                                                         <a target="_blank" href="https://github.com/IAmShawn98/LocoBounce">
-                                                            <button type="button" class="btn btn-outline-info waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
                                                         </a>
@@ -162,22 +162,22 @@ function Skills() {
                                                 </div>
                                             </div>
                                             <div className="col-md-4">
-                                                <div class="card project">
+                                                <div className="card project">
                                                     <a target="_blank" href="https://locobounce.herokuapp.com/">
-                                                        <div class="card-img-top mongoscraper"></div>
+                                                        <div className="card-img-top mongoscraper"></div>
                                                     </a>
-                                                    <div class="card-body">
-                                                        <h4 class="text-primary"><a>Mongo Web Scraper</a></h4>
-                                                        <p class="card-text">
+                                                    <div className="card-body">
+                                                        <h4 className="text-primary"><a>Mongo Web Scraper</a></h4>
+                                                        <p className="card-text">
                                                             Scrape the latest news from the New York Times and save your favorite news articles.
                                                         </p>
                                                         <a target="_blank" href="https://locobounce.herokuapp.com/">
-                                                            <button type="button" class="btn btn-outline-success waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
                                                         <a target="_blank" href="https://github.com/IAmShawn98/LocoBounce">
-                                                            <button type="button" class="btn btn-outline-info waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
                                                         </a>
@@ -186,25 +186,25 @@ function Skills() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div className="carousel-item">
                                         <div className="row">
                                             <div className="col-md-4">
-                                                <div class="card project">
+                                                <div className="card project">
                                                     <a target="_blank" href="https://iamshawn98.github.io/TriviaGame/">
-                                                        <div class="card-img-top triviagame"></div>
+                                                        <div className="card-img-top triviagame"></div>
                                                     </a>
-                                                    <div class="card-body">
-                                                        <h4 class="text-primary"><a>90s Nick Trivia Game</a></h4>
-                                                        <p class="card-text">
+                                                    <div className="card-body">
+                                                        <h4 className="text-primary"><a>90s Nick Trivia Game</a></h4>
+                                                        <p className="card-text">
                                                             Test your knowledge of classic 1990s Nickelodeon cartoons!
                                                         </p>
                                                         <a target="_blank" href="https://iamshawn98.github.io/TriviaGame/">
-                                                            <button type="button" class="btn btn-outline-success waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
                                                         <a target="_blank" href="https://github.com/IAmShawn98/TriviaGame">
-                                                            <button type="button" class="btn btn-outline-info waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
                                                         </a>
@@ -212,24 +212,24 @@ function Skills() {
                                                 </div>
                                             </div>
                                             <div className="col-md-4">
-                                                <div class="card project">
+                                                <div className="card project">
                                                     <a target="_blank" href="https://iamshawn98.github.io/word-guess-game/">
-                                                        <div class="card-img-top wordguessgame"></div>
+                                                        <div className="card-img-top wordguessgame"></div>
                                                     </a>
-                                                    <div class="card-body">
-                                                        <h4 class="text-primary"><a>Hangman, Basically</a></h4>
-                                                        <p class="card-text">
+                                                    <div className="card-body">
+                                                        <h4 className="text-primary"><a>Hangman, Basically</a></h4>
+                                                        <p className="card-text">
                                                             The game is simple, guess words correctly, secure high win streaks,
                                                             and stop Hangman from meeting his tragic fate. You have a limited
                                                             number of guesses to make, so be sure to choose letters wisely!
                                                         </p>
                                                         <a target="_blank" href="https://iamshawn98.github.io/word-guess-game/">
-                                                            <button type="button" class="btn btn-outline-success waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
                                                         <a target="_blank" href="https://github.com/IAmShawn98/word-guess-game">
-                                                            <button type="button" class="btn btn-outline-info waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
                                                         </a>
@@ -237,24 +237,24 @@ function Skills() {
                                                 </div>
                                             </div>
                                             <div className="col-md-4">
-                                                <div class="card project">
+                                                <div className="card project">
                                                     <a target="_blank" href="https://www.youtube.com/watch?v=gGFVIu9c62k&feature=youtu.be">
-                                                        <div class="card-img-top bamazon"></div>
+                                                        <div className="card-img-top bamazon"></div>
                                                     </a>
-                                                    <div class="card-body">
-                                                        <h4 class="text-primary"><a>Bamazon Storefront</a></h4>
-                                                        <p class="card-text">
+                                                    <div className="card-body">
+                                                        <h4 className="text-primary"><a>Bamazon Storefront</a></h4>
+                                                        <p className="card-text">
                                                             Bamazon CLI (command line interface) is an Amazon-like storefront
                                                             created using Node js and MYSQL that allows you to buy, manage,
                                                             and supervise your very own store!
                                                         </p>
                                                         <a target="_blank" href="https://www.youtube.com/watch?v=gGFVIu9c62k&feature=youtu.be">
-                                                            <button type="button" class="btn btn-outline-success waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
                                                         <a target="_blank" href="https://github.com/IAmShawn98/bamazon-cli-app">
-                                                            <button type="button" class="btn btn-outline-info waves-effect p-2">
+                                                            <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
                                                         </a>
@@ -264,17 +264,17 @@ function Skills() {
                                         </div>
                                     </div>
                                 </div>
-                                {/* <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                    <span class="btn btn-primary carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
+                                {/* <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span className="btn btn-primary carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Previous</span>
                                 </a>
-                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                    <span class="btn btn-primary carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
+                                <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span className="btn btn-primary carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Previous</span>
                                 </a> */}
-                                <ol class="carousel-indicators">
-                                    <li id="prev" class="carousel-control-prev" href="#carouselExampleControls" data-slide="prev" data-slide-to="0" class="active"></li>
-                                    <li id="next" class="carousel-control-next" href="#carouselExampleControls" data-slide="next" data-slide-to="1" class=""></li>
+                                <ol className="carousel-indicators">
+                                    <li id="prev" className="carousel-control-prev" href="#carouselExampleControls" data-slide="prev" data-slide-to="0" className="active"></li>
+                                    <li id="next" className="carousel-control-next" href="#carouselExampleControls" data-slide="next" data-slide-to="1" className=""></li>
                                 </ol>
                             </div>
                         </div>
