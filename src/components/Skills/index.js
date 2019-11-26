@@ -163,7 +163,7 @@ function Skills() {
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="card project">
-                                                    <a target="_blank" href="https://locobounce.herokuapp.com/" rel="noopener noreferrer">
+                                                    <a target="_blank" href="https://web-scraper-sl.herokuapp.com/" rel="noopener noreferrer">
                                                         <div className="card-img-top mongoscraper"></div>
                                                     </a>
                                                     <div className="card-body">
@@ -171,12 +171,12 @@ function Skills() {
                                                         <p className="card-text">
                                                             Scrape the latest news from the New York Times and save your favorite news articles.
                                                         </p>
-                                                        <a target="_blank" href="https://locobounce.herokuapp.com/" rel="noopener noreferrer">
+                                                        <a target="_blank" href="https://web-scraper-sl.herokuapp.com/" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>
                                                         </a>
-                                                        <a target="_blank" href="https://github.com/IAmShawn98/LocoBounce" rel="noopener noreferrer">
+                                                        <a target="_blank" href="https://github.com/IAmShawn98/web-scraper" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-info waves-effect p-2">
                                                                 View Github Source
                                                         </button>
