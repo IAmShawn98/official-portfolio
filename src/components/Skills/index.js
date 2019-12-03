@@ -90,7 +90,7 @@ function Skills() {
                         </div>
                     </div>
                     {/* Iframe (With Embeded Resume) */}
-                    <iframe id="EmbededResume" className="animated bounceIn" src="https://drive.google.com/file/d/1vEr_3gHJIihzJ4akq-qChDoQQ8qux83g/preview" width="740" height="750">
+                    <iframe title="Resume Document" id="EmbededResume" className="animated bounceIn" src="https://drive.google.com/file/d/1vEr_3gHJIihzJ4akq-qChDoQQ8qux83g/preview" width="740" height="750">
                         {/* Fallback text in case iframes don't work correctly on older web browsers */}
                         <p className="lead">
                             It looks like the web browser you're using does not support iframes.
