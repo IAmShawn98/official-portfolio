@@ -14,9 +14,12 @@ import './media/highres-desktop-1282.css'; // hi-res laptops and desktops.
 // Component app routing.
 function Skills() {
     return (
+        // Skills Page Container.
         <div id="MySkillsContainer">
+            {/* Skills Content Container */}
             <div id="MySkillsHeader" className="jumbotron jumbotron-fluid p-4 m-0">
                 <div className="container-fluid text-center hover-effect">
+                    {/* My Skills Icon, text, and lead info */}
                     <i className="fa fa-language fa-5x mt-5" aria-hidden="true"></i>
                     <h1 id="SkillsText" className="display-4 mt-3">My SKill Set.</h1>
                     <p className="lead">
@@ -25,24 +28,31 @@ function Skills() {
                     </p>
                 </div>
             </div>
+            {/* Skills Section icons */}
             <nav id="SkillLinks" className="navbar navbar-expand-lg navbar-dark primary-color mb-5">
+                {/* Skills Tabs */}
                 <ul className="navbar-nav mx-auto nav nav-tabs">
+                    {/* My Stack */}
                     <li data-tip="Full Stack Skills + Resume (PDF)" className="nav-item">
                         <a className="nav-link m-4 StackTab hvr-bounce-in" id="home-tab" data-toggle="tab" href="#MySkills" rel="noopener noreferrer">
                             <i className="fa fa-server fa-2x p-5" aria-hidden="true"></i>
                         </a>
                     </li>
+                    {/* My Work (Projects) */}
                     <li data-tip="My Work (Projects)" className="nav-item">
                         <a className="nav-link m-4 StackTab hvr-bounce-in" id="profile-tab" data-toggle="tab" href="#ProjectSlider" rel="noopener noreferrer">
                             <i className="fa fa-desktop fa-2x p-5" aria-hidden="true"></i>
                         </a>
                     </li>
+                    {/* This allows the tooltips to appear over the icons when a user hovers over either of them */}
                     <ReactTooltip />
                 </ul>
             </nav>
+            {/* Skills Tab Sections */}
             <div className="container tab-content">
                 <div className="tab-pane fade show active" id="MySkills">
                     <div className="row">
+                        {/* Front-End Skills */}
                         <div className="card StackType animated bounceIn mr-5">
                             <div className="card-body text-white">
                                 <div className="text-center">
@@ -60,6 +70,7 @@ function Skills() {
                                 </ul>
                             </div>
                         </div>
+                        {/* Back-End Skills */}
                         <div className="card StackType animated bounceIn">
                             <div className="card-body text-white">
                                 <div className="text-center">
@@ -78,14 +89,9 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div id="MyResumeLabel" className="animated bounceIn">
-                            <div className="text-white">
-                                <h1>My Resume</h1>
-                            </div>
-                        </div>
-                    </div>
+                    {/* Iframe (With Embeded Resume) */}
                     <iframe id="EmbededResume" className="animated bounceIn" src="https://drive.google.com/file/d/1vEr_3gHJIihzJ4akq-qChDoQQ8qux83g/preview" width="740" height="750">
+                        {/* Fallback text in case iframes don't work correctly on older web browsers */}
                         <p className="lead">
                             It looks like the web browser you're using does not support iframes.
                             Iframes are pieces of code the browser uses for things such as
@@ -94,9 +100,11 @@ function Skills() {
                         </p>
                     </iframe>
                 </div>
+                {/* Projects Container */}
                 <div className="tab-pane fade" id="ProjectSlider">
                     <div id="ProjectContainer" className="jumbotron jumbotron m-0 sm-shadow">
                         <div className="animated bounceIn container">
+                            {/* My Projects (Content Description) */}
                             <h2 className="display-4 text-white">My Projects!</h2>
                             <p className="lead text-white">
                                 This is a short preview of each of my six most proud projects from school, work, and personal.
@@ -105,9 +113,9 @@ function Skills() {
                                 visit my <a className="text-danger" href="https://github.com/IAmShawn98" rel="noopener noreferrer">Github</a> or <a className="text-danger" href="https://www.linkedin.com/in/shawn-luther-a11109148/" rel="noopener noreferrer">LinkedIn</a> for more information.
                             </p>
                         </div>
-
+                        {/* Carousel of Projects (Custom Created Slider) */}
                         <div className="tab-pane fade show" id="home">
-                            <div id="carouselExampleControls" className="animated bounceIn carousel slide" data-interval="false">
+                            <div id="ProjectCarouselSlider" className="animated bounceIn carousel slide" data-interval="false">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <div className="row">
@@ -264,6 +272,7 @@ function Skills() {
                                         </div>
                                     </div>
                                 </div>
+                                {/* May Use Later (Yeah, I've been kinda hoarding these two snippets of code lol) */}
                                 {/* <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                                     <span className="btn btn-primary carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span className="sr-only">Previous</span>
@@ -272,9 +281,10 @@ function Skills() {
                                     <span className="btn btn-primary carousel-control-next-icon" aria-hidden="true"></span>
                                     <span className="sr-only">Previous</span>
                                 </a> */}
+                                {/* Project Slider Indicators */}
                                 <ol className="carousel-indicators">
-                                    <li id="prev" className="carousel-control-prev" href="#carouselExampleControls" rel="noopener noreferrer" data-slide="prev" data-slide-to="0" className="active"></li>
-                                    <li id="next" className="carousel-control-next" href="#carouselExampleControls" rel="noopener noreferrer" data-slide="next" data-slide-to="1" className=""></li>
+                                    <li id="prev" className="carousel-control-prev" href="#ProjectCarouselSlider" rel="noopener noreferrer" data-slide="prev" data-slide-to="0" className="active"></li>
+                                    <li id="next" className="carousel-control-next" href="#ProjectCarouselSlider" rel="noopener noreferrer" data-slide="next" data-slide-to="1" className=""></li>
                                 </ol>
                             </div>
                         </div>
