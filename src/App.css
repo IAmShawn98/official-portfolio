@@ -38,3 +38,9 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #005bff;
     outline: 1px solid slategrey;
 }
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
