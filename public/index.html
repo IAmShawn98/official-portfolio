@@ -68,11 +68,10 @@
     $("#AboutMe, #MySkillsContainer, footer").show();
   });
 
-  // Ping Portfolio (For better user experience).
-  var http = require("http");
-  setInterval(function () {
-    http.get("https://iamshawn.herokuapp.com/");
-  }, 300000); // Ping Every 5 Minutes.
+  // Ping Portfolio (To Prevent Sleeping).
+  setInterval(() => {
+    document.location.reload(true);
+  }, 1.2e+6); // Ping every 20 minutes.
 </script>
 
 </html>
