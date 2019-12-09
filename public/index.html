@@ -67,6 +67,11 @@
   $(".LinkLoadContent").click(function () {
     $("#AboutMe, #MySkillsContainer, footer").show();
   });
+
+  // Ping Portfolio (To Prevent Sleeping).
+  setInterval(() => {
+    document.location.reload(true);
+  }, 1.2e+6); // Ping every 20 minutes.
 </script>
 
 </html>
