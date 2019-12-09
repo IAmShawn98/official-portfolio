@@ -8,6 +8,9 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 
+// Start New Relic Monitoring.
+require('newrelic');
+
 // Component app routing.
 function App() {
   return (
