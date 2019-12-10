@@ -6,7 +6,7 @@
         -moz-animation: AnimationName 30s ease infinite;
         -o-animation: AnimationName 30s ease infinite;
         animation: AnimationName 30s ease infinite;
-        height: 60vh !important;
+        height: 60vh;
         color: #ffffff;
         box-shadow: none !important;
         padding: 0;
@@ -14,11 +14,10 @@
     }
     div#MySkills {
         position: relative;
-        top: -70px;
-        width: 100vw;
+        width: 100%;
     }
     .fa-5x {
-        font-size: 4em;
+        font-size: 6em;
     }
     i.fa.fa-server.fa-2x.p-5 {
         font-size: 2em;
@@ -27,7 +26,7 @@
         font-size: 2em;
     }
     .display-4 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         font-weight: 300;
         line-height: 1.2;
     }
@@ -102,6 +101,7 @@
     }
     ul.navbar-nav.mx-auto.nav.nav-tabs {
         position: absolute;
+        left: 15vh;
         display: -webkit-inline-box;
     }
     span.btn.btn-primary.carousel-control-prev-icon.waves-effect.waves-light {
@@ -126,20 +126,8 @@
     }
     .StackType {
         position: relative;
-        margin-left: -25px;
         background-color: #099cea !important;
-        /* z-index: -999999; */
-        width: 76%;
-        height: 56vh;
-        margin-top: 2vh;
-    }
-    #MyResumeLabel {
-        display: none;
-        position: relative;
-        top: 15vh;
-        text-align: center;
-        width: 100%;
-        /* z-index: -999999; */
+        height: 70vh;
     }
     hr {
         background-color: #ffffff;
@@ -157,10 +145,8 @@
     }
     #EmbededResume {
         position: relative;
-        top: 20vh;
-        left: 8vh;
-        width: 70vh !important;
-        height: 60vh !important;
+        width: 85vh !important;
+        height: 90vh !important;
     }
     #ProjectSlider {
         position: relative;

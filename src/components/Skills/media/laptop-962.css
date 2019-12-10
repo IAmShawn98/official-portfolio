@@ -6,7 +6,7 @@
         -moz-animation: AnimationName 30s ease infinite;
         -o-animation: AnimationName 30s ease infinite;
         animation: AnimationName 30s ease infinite;
-        height: 60vh !important;
+        height: 60vh;
         color: #ffffff;
         box-shadow: none !important;
         padding: 0;
