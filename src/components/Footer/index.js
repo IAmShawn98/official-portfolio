@@ -61,8 +61,8 @@ function Footer() {
             </div>
             {/* Author Credit */}
             <div class="footer-copyright text-center py-3"> A Thing By
-                <a href="https://www.linkedin.com/in/shawn-luther/" rel="noopener noreferrer"> Shawn Luther </a>
-                2019
+                <a href="https://www.linkedin.com/in/shawn-luther/" rel="noopener noreferrer"> Shawn Luther </a> |
+                2019 - <span id="CurrentYear"></span>
             </div>
         </footer>
     );

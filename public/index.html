@@ -35,9 +35,6 @@
 
   <!-- Favicon Data: -->
 
-  <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-  <link rel="apple-touch-icon" href="favicon.ico" /> -->
-
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
@@ -75,6 +72,10 @@
   setInterval(() => {
     document.location.reload(true);
   }, 1.2e+6); // Ping every 20 minutes.
+
+  // Automatically update footer year.
+  var date = new Date();
+  document.getElementById("CurrentYear").innerHTML = date.getFullYear();
 </script>
 
 </html>
