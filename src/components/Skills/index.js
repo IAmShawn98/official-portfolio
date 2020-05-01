@@ -121,7 +121,7 @@ function Skills() {
                                         <div className="row">
                                             <div className="col-md-4">
                                                 <div className="card project">
-                                                    <a target="_blank" href="https://gtm-quickshare.herokuapp.com/" rel="noopener noreferrer">
+                                                    <a target="_blank" href="https://iamshawn98.github.io/gtm-quickshare/index.html" rel="noopener noreferrer">
                                                         <div className="card-img-top quickshare"></div>
                                                     </a>
                                                     <div className="card-body">
@@ -131,7 +131,7 @@ function Skills() {
                                                             teams Excel Macros, Workbooks, user guides, documentation, and
                                                             any piece of software that needs constant attention.
                                                         </p>
-                                                        <a target="_blank" href="https://gtm-quickshare.herokuapp.com/" rel="noopener noreferrer">
+                                                        <a target="_blank" href="https://iamshawn98.github.io/gtm-quickshare/index.html" rel="noopener noreferrer">
                                                             <button type="button" className="btn btn-outline-success waves-effect p-2">
                                                                 View Live
                                                         </button>

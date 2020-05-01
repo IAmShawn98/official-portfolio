@@ -1,7 +1,7 @@
 # official-portfolio
 
-Welcome to my official portfolio! I am Shawn Luther, a Full Stack Web Developer!
+This is my official website and portfolio, a constantly evolving page to briefly introduce myself and notable projects.
 
-![preview](./src/assets/images/portfolio.png)
+![preview](src/assets/readme/portfolio.png)
 
-Check out my portfolio here: <a href="https://iamshawn.herokuapp.com/">https://iamshawn.herokuapp.com/</a>
+View Site Live Here: <a href="https://iamshawn.herokuapp.com/">https://iamshawn.herokuapp.com/</a>
