@@ -145,6 +145,7 @@ body::-webkit-scrollbar-thumb:hover {
 #IntroRibbon-d {
     background-image: url(/assets/site-backgrounds/ribbon.png);
     background-repeat: no-repeat;
+    background-position: top;
     height: 6vw !important;
     font-size: 1.8em;
 }
