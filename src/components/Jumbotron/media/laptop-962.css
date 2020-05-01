@@ -1,0 +1,10 @@
+@media (min-width: 962px) and (max-width: 1025px) {
+    #alertBubble {
+        clip-path: inset(0 0 70% 0);
+        background-color: #33b5e5;
+        color: #ffffff;
+    }
+    h4#bubbleBrand {
+        font-size: 158%;
+    }
+}

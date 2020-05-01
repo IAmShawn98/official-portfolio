@@ -1,0 +1,20 @@
+#alertBubble {
+    clip-path: polygon(7% 0, 94% 0, 100% 29%, 51% 29%, 49.6% 39%, 48% 29%, 0 27%);
+    height: 230px !important;
+    background-color: #33b5e5;
+    color: #ffffff;
+    border-radius: 0 0 85px 85px;
+    border-top: 0;
+}
+
+/* IE & Edge Polygon fix */
+
+@supports (-ms-ime-align: auto) {
+    #alertBubble {
+        clip-path: polygon(7% 0, 94% 0, 100% 29%, 51% 29%, 49.6% 39%, 48% 29%, 0 27%);
+        height: 70px !important;
+        background-color: #33b5e5;
+        color: #ffffff;
+        border-radius: none;
+    }
+}

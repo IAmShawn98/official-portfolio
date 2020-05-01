@@ -1,0 +1,15 @@
+@media (min-width: 320px) and (max-width: 481px) {
+    #ProfilePic {
+        position: relative;
+        width: 40vh;
+        bottom: 120px;
+        min-height: 5%;
+        min-height: 5vh;
+        border-radius: 100% 100% 100% 100%;
+        border: 2px solid #ffffff;
+    }
+    #DiveDeeper {
+        position: relative;
+        bottom: 100px;
+    }
+}

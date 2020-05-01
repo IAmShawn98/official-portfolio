@@ -1,63 +1,82 @@
 // Dependencies.
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 import React from 'react';
+
+// Default Styles.
+import './style.css';
+
+// Responsive Styles.
+import './media/phone-320.css'; // smartphones, iPhone, portrait 480x320 phones.
+import './media/nook-482.css'; // portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.
+import './media/tablet-642.css'; // portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones.
+import './media/laptop-962.css'; // tablet, landscape iPad, lo-res laptops ands desktops. 
+import './media/desktop-1026.css'; // big landscape tablets, laptops, and desktops.
+import './media/highres-desktop-1282.css'; // hi-res laptops and desktops.
 
 // Component 'Navbar'.
 function Navbar() {
     return (
         // Navbar Container.
-        <div id="LandingPage">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-steel p-5">
-                {/* Navbar Brand */}
-                <a id="MainNavBrand" className="navbar-brand" href="/">Shawn Luther</a>
-                {/* Mobile Collapse Icon (Hamburger) */}
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavToggle"
-                    aria-controls="NavToggle" aria-expanded="false" aria-label="Toggle navigation">
-                    {/* Hamburger Icon */}
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                {/* Navbar Mobile Collapse Container */}
-                <div className="collapse navbar-collapse" id="NavToggle">
-                    {/* Navbar Social Circles */}
-                    <div id="ContainSocialCircles" className="text-center">
-                        {/* Social Circles Brand */}
-                        <h1 id="SocialCircleLabel" className="text-white font-weight-bold display-4 mb-3">My Social Circles</h1>
-                        {/* GitHub Circle */}
-                        <a href="https://github.com/IAmShawn98" target="_blank" rel="noopener noreferrer">
-                            <button title="My Github Profile" className="hover-effect social-icon-github mr-4">
-                                <i className="fab fa-github"></i>
-                            </button>
-                        </a>
-                        {/* GitHub Circle */}
-                        <a href="https://www.linkedin.com/in/shawn-luther-a11109148/" target="_blank" rel="noopener noreferrer">
-                            <button title="My LinkedIn Profile" className="hover-effect social-icon-linkedin">
-                                <i className="fab fa-linkedin"></i>
-                            </button>
-                        </a>
+        <nav className="navbar navbar-expand-lg navbar-dark primary-color">
+            {/* Navbar Brand */}
+            <a className="navbar-brand" href="/" rel="noopener noreferrer">Shawn Luther</a>
+            {/* Navbar Mobile Collapse */}
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#AppNav" aria-expanded="false">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            {/* Navbar Mobile Collapse Content Container */}
+            <div className="collapse navbar-collapse" id="AppNav">
+                {/* Social Circles Container*/}
+                <ul className="navbar-nav ml-auto">
+                    <div className="row">
+                        <div className="col-md-12 offset-2 text-center">
+                            {/* Social Circle Brand */}
+                            <h2 id="SocialCircleLabel" className="text-white">My Social Circles</h2>
+                            {/* Social Circle (Github) */}
+                            <a className="hover-effect" target="_blank" rel="noopener noreferrer" href="https://github.com/IAmShawn98"><i className="fa fa-github mr-4 hvr-bounce-out" aria-hidden="true"></i></a>
+                            {/* Social Circle (Linkedin) */}
+                            <a className="hover-effect" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shawn-luther-a11109148/"><i className="fa fa-linkedin hvr-bounce-out" aria-hidden="true"></i></a>
+                        </div>
                     </div>
-                    <ul id="SiteNavLinks" className="navbar-nav ml-auto nav-flex-icons">
-                        {/* Item #1 - 'About Me' */}
-                        <li className="nav-item">
-                            <a className="nav-link hvr-grow text-white LinkLoadContent" href="#AboutMe">
-                                <span className="text-info">&#123;</span> <i className="fa fa-info-circle" aria-hidden="true"></i> About Me <span className="text-info">&#125;</span>
-                            </a>
-                        </li>
-                        {/* Item #2 - 'Skills & Projects' */}
-                        <li className="nav-item">
-                            <a className="nav-link hvr-grow text-white LinkLoadContent" href="#MyProjects">
-                                <span className="text-info">&#123;</span> <i className="fa fa-code"></i> My Projects <span className="text-info">&#125;</span>
-                            </a>
-                        </li>
-                        {/* Item #3 - 'Contact Info' */}
-                        <li className="nav-item">
-                            <a className="nav-link hvr-grow text-white LinkLoadContent" href="#footer">
-                                <span className="text-info">&#123;</span> <i className="fa fa-address-card"></i> Contact <span className="text-info">&#125;</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+                </ul>
+                {/* Navbar App Routing */}
+                {/* Link ---> About Me */}
+                <ul className="navbar-nav ml-auto">
+                    <li className="nav-item">
+                        <Link className="nav-link hvr-grow text-white LinkLoadContent"
+                            activeclassName="active" to="AboutMe"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}>
+                            <span className="text-turk">&#123;</span> <i className="fa fa-info-circle" aria-hidden="true"></i> About Me <span className="text-turk">&#125;</span>
+                        </Link>
+                    </li>
+                    {/* Link ---> MY Skills */}
+                    <li className="nav-item">
+                        <Link className="nav-link hvr-grow text-white LinkLoadContent"
+                            activeClass="active" to="MySkillsHeader"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                            <span className="text-turk">&#123;</span> <i className="fa fa-code"></i> Skills & Projects <span className="text-turk">&#125;</span>
+                        </Link>
+                    </li>
+                    {/* Link ---> Footer / Contact Info */}
+                    <li className="nav-item">
+                        <Link className="nav-link hvr-grow text-white LinkLoadContent"
+                            activeClass="active" to="footer"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                            <span className="text-turk">&#123;</span> <i className="fa fa-address-card"></i> Contact <span className="text-turk">&#125;</span>
+                        </Link>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     );
 }
 

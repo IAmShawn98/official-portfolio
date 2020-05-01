@@ -2,77 +2,80 @@
 <html lang="en">
 
 <head>
-  <!-- Character Encoding -->
+  <!-- Required Meta Data -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta charset="utf-8" />
-  <!-- Viewport Definition -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <!-- Manifest File Location -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- SEO Meta Data -->
+  <meta name="Author" content="Shawn Luther">
+  <meta name="Description"
+    content="I am a Full Stack Web Developer! Interested? Click to learn about me and my tech!" />
+  <meta name="Keywords" content="shawn luther,iamshawn,portfolio,developer,full stack web development,about,skills" />
 
-  <!-- Browser Defined Favicons (All Sizes) | %PUBLIC_URL% === static/public folder -->
-  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/assets/fav-icon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/assets/fav-icon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/assets/fav-icon/favicon-16x16.png" />
-
-  <!-- ^ Icons Manifest Location ^ -->
-  <link rel="manifest" href="%PUBLIC_URL%/assets/fav-icon/site.webmanifest" />
-
-  <!-- Basic App SEO: -->
-
-  <!-- Document Title & Search Result URL -->
-  <title>Shawn Luther | Official Website | Dev Portfolio</title>
-  <!-- Site Author -->
-  <meta name="Author" content="Shawn Luther" />
-  <!-- Site Description -->
-  <meta name="Description" content="This is my official website — Get to know me and check out my work!" />
-  <!-- Web Search Keywords -->
-  <meta name="Keywords"
-    content="web developer,shawn luther,iamshawn,official,portfolio,tech,learn,skills,coding,full stack,front end,back end" />
   <!-- Google Site Verification -->
   <meta name="google-site-verification" content="Ma3rvvYd8eLtRVChLGl76_r27Nk8QH4mfmuWe6v-w20" />
 
-  <!-- Font & Icons: -->
-
   <!-- Google Font (Global) -->
-  <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet" />
-  <!-- Font Awesome (Icons) -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
 
-  <!-- Animation Libraries & Effects: -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
 
   <!-- Animate CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
   <!-- Hover CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
 
+  <!-- Favicon Data: -->
 
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Provides mobile users with meta data on the web -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <!-- Document title -->
+  <title>Shawn Luther - Official Developer Portfolio</title>
 </head>
 
-<body class="animated fadeIn">
-  <!-- Run if user has scripts disabled in their browser -->
-  <noscript>
-    If you are seeing this message, you probably have scripts disabled in your web browser.
-    This web application requires users to enable this setting in order to render dynamic
-    content. Please enable scripts and reload the page. Thank you!
-  </noscript>
+<!-- Render app Component routing -->
 
-  <!-- 
-    The 'root' id renders all created react components 
-    together with all meta defined rules 
-    created by this html document
-  -->
+<body class="animated fadeIn slow">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-
-  <!-- JQuery -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <!-- Popper JS -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
 </body>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+
+<!-- Load Portfolio Content (Either when the user clicks any link, or the 'About Me' button) -->
+<script type="text/javascript">
+  $(".LinkLoadContent").click(function () {
+    $("#AboutMe, #MySkillsContainer, footer").show();
+  });
+
+  // Ping Portfolio (To Prevent Sleeping).
+  setInterval(() => {
+    document.location.reload(true);
+  }, 1.2e+6); // Ping every 20 minutes.
+
+  // Automatically update footer year.
+  var date = new Date();
+  document.getElementById("CurrentYear").innerHTML = date.getFullYear();
+</script>
 
 </html>

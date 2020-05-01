@@ -1,5 +1,11 @@
 // Dependencies.
 import React from 'react';
+import './style.css';
+
+// Responsive Styles.
+import './media/phone-320.css'; // smartphones, iPhone, portrait 480x320 phones.
+import './media/nook-482.css'; // portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.
+import './media/tablet-642.css'; // portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones.
 
 // Component 'Footer'.
 function Footer() {
@@ -13,9 +19,7 @@ function Footer() {
                         Would you like to contact me for any reason? <br />
                         You can do so via phone or email. Otherwise,  <br />
                         check out my LinkedIn Profile and Github  <br />
-                        for more information. If you don't hear back <br />
-                        from me via phone please contact me by email or <br />
-                        find me on LinkedIn. Thank you!
+                        for more information.
                         <br /> <br />
                         <p>
                             Email Me: shawnluther99@gmail.com
@@ -29,13 +33,13 @@ function Footer() {
                         <h5 class="text-uppercase">Social Media & News Articles</h5>
                         <ul class="list-unstyled">
                             <li>
-                                <u>» <a target="_blank" href="https://www.bizjournals.com/philadelphia/news/2017/03/27/global-tax-sap-pathway-school-hiring-autism-worker.html" rel="noopener noreferrer">Philadelphia Business Journal</a></u>
+                                <u><a target="_blank" href="https://www.bizjournals.com/philadelphia/news/2017/03/27/global-tax-sap-pathway-school-hiring-autism-worker.html" rel="noopener noreferrer">Philadelphia Business Journal</a></u>
                             </li>
                             <li>
-                                <u>» <a target="_blank" href="https://www.linkedin.com/in/shawn-luther/" rel="noopener noreferrer">LinkedIn</a></u>
+                                <u><a target="_blank" href="https://www.linkedin.com/in/shawn-luther/" rel="noopener noreferrer">LinkedIn</a></u>
                             </li>
                             <li>
-                                <u>» <a target="_blank" href="https://github.com/IAmShawn98" rel="noopener noreferrer">Github</a></u>
+                                <u><a target="_blank" href="https://github.com/IAmShawn98" rel="noopener noreferrer">Github</a></u>
                             </li>
                         </ul>
                     </div>
@@ -43,13 +47,13 @@ function Footer() {
                         <h5 class="text-uppercase">Shoutouts to These Awesome Resources</h5>
                         <ul class="list-unstyled">
                             <li>
-                                <u>» <a target="_blank" href="https://www.transparenttextures.com/" rel="noopener noreferrer">transparenttextures.com</a></u>
+                                <u><a target="_blank" href="https://www.transparenttextures.com/" rel="noopener noreferrer">transparenttextures.com</a></u>
                             </li>
                             <li>
-                                <u>» <a target="_blank" href="https://bennettfeely.com/clippy/" rel="noopener noreferrer">bennettfeely.com</a></u>
+                                <u><a target="_blank" href="https://bennettfeely.com/clippy/" rel="noopener noreferrer">bennettfeely.com</a></u>
                             </li>
                             <li>
-                                <u>» <a target="_blank" href="https://cssgradient.io/" rel="noopener noreferrer">cssgradient.io</a></u>
+                                <u><a target="_blank" href="https://cssgradient.io/" rel="noopener noreferrer">cssgradient.io</a></u>
                             </li>
                         </ul>
                     </div>
