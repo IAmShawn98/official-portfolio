@@ -148,6 +148,7 @@ body::-webkit-scrollbar-thumb:hover {
     background-position: top;
     height: 6vw !important;
     font-size: 1.8em;
+    top: -1px;
 }
 
 #IntroRibbon-m {
