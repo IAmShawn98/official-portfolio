@@ -24,7 +24,7 @@ function Projects() {
                     <a class="fa-lg p-4 m-2 tw-ic hvr-grow"><i class="fab fa-github text-white display-4"></i></a>
                 </div>
                 <h1 className="text-white text-center display-4 mb-4">
-                    <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>  Projects <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star text-warning" aria-hidden="true"></i> <i class="fa fa-star text-warning" aria-hidden="true"></i>  Projects <i class="fa fa-star text-warning" aria-hidden="true"></i> <i class="fa fa-star text-warning" aria-hidden="true"></i>
                     <hr />
                 </h1>
                 <div className="row p-0 m-0">

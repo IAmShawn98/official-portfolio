@@ -212,7 +212,6 @@ body::-webkit-scrollbar-thumb:hover {
         color: #ffffff;
         font-size: 1em;
         border: none;
-        top: -1px;
     }
     #IntroRibbon-d {
         display: none;
@@ -220,7 +219,7 @@ body::-webkit-scrollbar-thumb:hover {
     /* DeepDive Styles: */
     #iamshawn-profile {
         border-radius: 50%;
-        width: 14%;
+        width: 16%;
     }
     #DiveDeepLabel {
         font-size: 2em;
@@ -545,7 +544,68 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* Section2 Media Queries: */
 
-/* hi-res laptops and desktops */
+/* hi-res Laptops and Desktops */
+
+@media screen and (max-width:1560px) {
+    /* Section Definition Styles: */
+    #AboutMe {
+        position: relative;
+        background: url(/assets/site-backgrounds/site-bg.png);
+        background-color: #1f629a;
+        height: 48rem;
+        width: 100%;
+    }
+    /* Remove Desktop Styles: */
+    #ViewProjectsBtn {
+        display: none;
+    }
+    #iamshawn-profile {
+        border-radius: 50%;
+        width: 13%;
+    }
+    #iamshawn-profile2 {
+        position: relative;
+        left: 63px;
+        float: left;
+        width: 18%;
+    }
+    #AboutContext {
+        position: absolute;
+        left: 528px;
+        top: 9px;
+        margin: 2rem;
+    }
+    .lead {
+        font-size: 0.85rem;
+        font-weight: 300;
+    }
+    /* Mobile SKill Card Styles: */
+    #SkillsFrontEndMobile {
+        position: relative;
+        background-color: #33b4e4;
+        border: 4px solid #ffffff;
+        color: #ffffff;
+        margin: 10px;
+    }
+    #SkillsBackndMobile {
+        position: relative;
+        background-color: #33b4e4;
+        border: 4px solid #ffffff;
+        color: #ffffff;
+    }
+    #TechDetails {
+        position: relative;
+        bottom: 35px;
+        background-color: #3986c4;
+        border: 4px solid white;
+        font-size: 0.7em;
+        width: 120%;
+        left: 90px;
+        padding: 30px;
+    }
+}
+
+/* laptops and desktops */
 
 @media screen and (max-width:1281px) {
     /* Section Definition Styles: */
@@ -563,10 +623,9 @@ body::-webkit-scrollbar-thumb:hover {
     #AboutContext, #JumboAbout, #TechDetailsSeperator, #TechDetails, .social-link-resume, #SkillsFrontEnd, #SKillsBackEnd, #SkillsFrontEnd, #ViewProjectsBtn {
         display: none;
     }
-    #iamshawn-profile3 {
-        height: 550px;
-        width: 100%;
-        display: block;
+    #iamshawn-profile {
+        border-radius: 50%;
+        width: 13%;
     }
     /* Mobile SKill Card Styles: */
     #SkillsFrontEndMobile {
@@ -607,6 +666,9 @@ body::-webkit-scrollbar-thumb:hover {
     /* Remove Desktop Styles: */
     #AboutContext, #JumboAbout, #TechDetailsSeperator, #TechDetails, .social-link-resume, #SkillsFrontEnd, #SKillsBackEnd, #SkillsFrontEnd, #ViewProjectsBtn {
         display: none;
+    }
+    #iamshawn-profile {
+        width: 17%;
     }
     #iamshawn-profile3 {
         height: 450px;
@@ -653,6 +715,9 @@ body::-webkit-scrollbar-thumb:hover {
     #iamshawn-profile2, #AboutContext, #JumboAbout, #TechDetailsSeperator, #TechDetails, .social-link-resume, #SkillsFrontEnd, #SKillsBackEnd, #SkillsFrontEnd, #ViewProjectsBtn {
         display: none;
     }
+    #iamshawn-profile {
+        width: 18%;
+    }
     /* Mobile SKill Card Styles: */
     #SkillsFrontEndMobile {
         position: relative;
@@ -692,6 +757,9 @@ body::-webkit-scrollbar-thumb:hover {
     /* Remove Desktop Styles: */
     #iamshawn-profile2, #AboutContext, #JumboAbout, #TechDetailsSeperator, #TechDetails, .social-link-resume, #SkillsFrontEnd, #SKillsBackEnd, #SkillsFrontEnd, #ViewProjectsBtn {
         display: none;
+    }
+    #iamshawn-profile {
+        width: 28%;
     }
     #iamshawn-profile3 {
         height: 400px;
@@ -738,6 +806,9 @@ body::-webkit-scrollbar-thumb:hover {
     #iamshawn-profile2, #AboutContext, #JumboAbout, #TechDetailsSeperator, #TechDetails, .social-link-resume, #SkillsFrontEnd, #SKillsBackEnd, #SkillsFrontEnd, #ViewProjectsBtn {
         display: none;
     }
+    #iamshawn-profile {
+        width: 35%;
+    }
     /* Mobile SKill Card Styles: */
     #SkillsFrontEndMobile {
         background-color: #33b4e4;
@@ -770,6 +841,9 @@ body::-webkit-scrollbar-thumb:hover {
     /* Remove Desktop Styles: */
     #iamshawn-profile2, #AboutContext, #JumboAbout, #TechDetailsSeperator, #TechDetails, .social-link-resume, #SkillsFrontEnd, #SKillsBackEnd, #SkillsFrontEnd, #ViewProjectsBtn {
         display: none;
+    }
+    #iamshawn-profile {
+        width: 69%;
     }
     #iamshawn-profile3 {
         height: 200px;
