@@ -552,6 +552,9 @@ body::-webkit-scrollbar-thumb:hover {
     #ViewProjectsBtn {
         display: none;
     }
+    img#iamshawn-profile {
+        width: 27%;
+    }
 }
 
 /* Large Desktops 2547px - 3000px */
@@ -564,6 +567,9 @@ body::-webkit-scrollbar-thumb:hover {
     }
     #ViewProjectsBtn {
         display: none;
+    }
+    img#iamshawn-profile {
+        width: 27%;
     }
 }
 
