@@ -482,6 +482,7 @@ body::-webkit-scrollbar-thumb:hover {
 #JumboAbout {
     /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 77% 100%, 73% 93%, 69% 100%, 0 100%); */
     background-image: url(/assets/site-backgrounds/JumboAbout.png);
+    background-repeat: round;
     background-color: none;
     border: none;
     color: #ffffff;
