@@ -549,9 +549,12 @@ body::-webkit-scrollbar-thumb:hover {
         left: 1096px;
         bottom: 472px;
     }
+    #ViewProjectsBtn {
+        display: none;
+    }
 }
 
-/* Large Desktops 2547px - ??? */
+/* Large Desktops 2547px - 3000px */
 
 @media screen and (max-width:2547px) {
     #AboutContext {
@@ -559,11 +562,17 @@ body::-webkit-scrollbar-thumb:hover {
         left: 1096px;
         bottom: 472px;
     }
+    #ViewProjectsBtn {
+        display: none;
+    }
 }
 
 /* Desktops 1791 - 1928 */
 
 @media screen and (max-width:1791px) {
+    #ViewProjectsBtn {
+        display: none;
+    }
     #MainNavBrand {
         font-size: 4em;
     }
@@ -632,6 +641,15 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media screen and (max-width:1424px) {
     #ViewProjectsBtn {
+        position: absolute;
+        background: url(/assets/site-backgrounds/btnViewProjects.png) no-repeat;
+        left: 878px;
+        bottom: 546px;
+        height: 38px;
+        width: 180px;
+        font-size: 1.6em;
+        border: none;
+        color: #ffffff;
         display: none;
     }
     #MainNavBrand {
