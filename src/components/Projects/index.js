@@ -19,10 +19,15 @@ function Projects() {
                         'View On Github', which will also give you access to <br />other past projects
                     </p>
                     {/* LinkedIn Profile */}
-                    <a href="https://github.com/IAmShawn98" target="_blank" className="fa-lg p-4 m-2 li-ic hvr-grow"><i className="fab fa-linkedin-in text-white display-4"></i></a>
+                    <a href="https://github.com/IAmShawn98" target="_blank" className="fa-lg p-4 m-2 li-ic hvr-grow">
+                        <i className="fab fa-linkedin-in text-white display-4"></i>
+                    </a>
                     {/* Github Profile */}
-                    <a href="https://github.com/IAmShawn98" target="_blank" className="fa-lg p-4 m-2 tw-ic hvr-grow"><i className="fab fa-github text-white display-4"></i></a>
+                    <a href="https://github.com/IAmShawn98" target="_blank" className="fa-lg p-4 m-2 tw-ic hvr-grow">
+                        <i className="fab fa-github text-white display-4"></i>
+                    </a>
                 </div>
+                {/* MY Projects Header Label */}
                 <h1 className="text-white text-center display-4 mb-4">
                     <i className="fa fa-star text-warning" aria-hidden="true"></i> <i className="fa fa-star text-warning" aria-hidden="true"></i>  Projects <i className="fa fa-star text-warning" aria-hidden="true"></i> <i className="fa fa-star text-warning" aria-hidden="true"></i>
                     <hr />
@@ -31,17 +36,18 @@ function Projects() {
                     {/* Project - 'GTM QuickShare' */}
                     <div className="card mx-auto project">
                         {/* <!-- Project Card --> */}
-                        <img className="card-img-top" src="./assets/project-thumbnails/gtmQuickShare.png" alt="Card image cap" />
+                        <img className="card-img-top" src="./assets/project-thumbnails/gtmQuickShare.png" alt="gtmQuickShare.png" />
                         {/* <!-- Porject Content --> */}
                         <div className="card-body">
                             {/* <!-- Porject Name --> */}
                             <h4 className="card-title text-primary"><a>GTM QuickShare</a></h4>
                             {/* <!-- Project Excerpt --> */}
                             <p className="card-text text-info">GTM QuickShare is a file repository that specializes in maintaining your teams versioned tax software. We provide space to store and manage your files, bridging the gap between you and your clients. We keep all of your files categorized and organized, synchronously!</p>
-                            {/* <!-- Link to Github & Live Project--> */}
+                            {/* <!-- Link to Github--> */}
                             <a target="_blank" href="https://gtm-quickshare.herokuapp.com/" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-success waves-effect p-2 mr-2 ">View Live</button>
                             </a>
+                            {/* Link to Live Project */}
                             <a target="_blank" href="https://github.com/IAmShawn98/official-portfolio" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-primary waves-effect p-2 m-0 ">View On Github</button>
                             </a>
@@ -50,7 +56,7 @@ function Projects() {
                     {/* <!-- Project - 'Mongo Web Scraper' --> */}
                     <div className="card mx-auto project">
                         {/* <!-- Project Card --> */}
-                        <img className="card-img-top" src="./assets/project-thumbnails/scraper.png" alt="Card image cap" />
+                        <img className="card-img-top" src="./assets/project-thumbnails/scraper.png" alt="scraper.png" />
                         {/* <!-- Project Content --> */}
                         <div className="card-body">
                             {/* <!-- Project Name --> */}
@@ -58,10 +64,10 @@ function Projects() {
                             {/* <!-- Project Excerpt --> */}
                             <p className="card-text text-info">Scrape the latest news from the New York Times and save your favorite news articles.</p>
                             {/* <!-- Link to Github & Live Project--> */}
-                            <a target="_blank" href="https://web-scraper-sl.herokuapp.com/" rel="noopener noreferrer">
+                            <a href="https://web-scraper-sl.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-success waves-effect p-2 mr-2 ">View Live</button>
                             </a>
-                            <a target="_blank" href="https://github.com/IAmShawn98/web-scraper" rel="noopener noreferrer">
+                            <a href="https://github.com/IAmShawn98/web-scraper" target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-primary waves-effect p-2 m-0 ">View On Github</button>
                             </a>
                         </div>
@@ -69,7 +75,7 @@ function Projects() {
                     {/* <!-- Project - 'LocoBounce' --> */}
                     <div className="card mx-auto project">
                         {/* <!-- Project Card --> */}
-                        <img className="card-img-top" src="./assets/project-thumbnails/LocoBounce.png" alt="Card image cap" />
+                        <img className="card-img-top" src="./assets/project-thumbnails/LocoBounce.png" alt="LocoBounce.png" />
                         {/* <!-- Project Content --> */}
                         <div className="card-body">
                             {/* <!-- Project Title --> */}
@@ -88,7 +94,7 @@ function Projects() {
                     {/* <!-- Project - 'Trivia Game' --> */}
                     <div className="card mx-auto project">
                         {/* <!-- Project Card --> */}
-                        <img className="card-img-top" src="./assets/project-thumbnails/triviaGame.png" alt="Card image cap" />
+                        <img className="card-img-top" src="./assets/project-thumbnails/triviaGame.png" alt="triviaGame.png" />
                         {/* <!-- Project Contemt --> */}
                         <div className="card-body">
                             {/* <!-- Project Title --> */}
@@ -107,7 +113,7 @@ function Projects() {
                     {/* <!-- Project - 'Hangman, Basically!' --> */}
                     <div className="card mx-auto project">
                         {/* <!-- Project Card --> */}
-                        <img className="card-img-top" src="./assets/project-thumbnails/wordGuessGame.png" alt="Card image cap" />
+                        <img className="card-img-top" src="./assets/project-thumbnails/wordGuessGame.png" alt="wordGuessGame.png" />
                         {/* <!-- Project Content --> */}
                         <div className="card-body">
                             {/* <!-- Project Name --> */}
@@ -126,7 +132,7 @@ function Projects() {
                     {/* <!-- Project - 'Bamazon' --> */}
                     <div className="card mx-auto project">
                         {/* <!-- Project Card --> */}
-                        <img className="card-img-top" src="./assets/project-thumbnails/bamazonCLI.png" alt="Card image cap" />
+                        <img className="card-img-top" src="./assets/project-thumbnails/bamazonCLI.png" alt="bamazonCLI.png" />
                         {/* <!-- Project Content --> */}
                         <div className="card-body">
                             {/* <!-- Project Title --> */}
