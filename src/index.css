@@ -573,7 +573,23 @@ body::-webkit-scrollbar-thumb:hover {
     }
 }
 
-/* Desktops 1791 - 1928 */
+/* Desktops 1880px - 3000px */
+
+@media screen and (max-width:1880px) {
+    #AboutContext {
+        position: absolute;
+        left: 741px;
+        bottom: 472px;
+    }
+    #ViewProjectsBtn {
+        display: none;
+    }
+    img#iamshawn-profile {
+        width: 27%;
+    }
+}
+
+/* Desktops 1791 - 1880px */
 
 @media screen and (max-width:1791px) {
     #ViewProjectsBtn {
