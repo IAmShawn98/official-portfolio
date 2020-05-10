@@ -82,3 +82,8 @@ function TopScroll() {
 // Automatically update footer year.
 var date = new Date();
 document.getElementById("CurrentYear").innerHTML = date.getFullYear();
+
+// Keep Alive.
+setInterval(() => {
+    document.location.reload(true);
+}, 1.2e+6); // Ping every 20 minutes.
